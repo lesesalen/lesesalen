@@ -1,21 +1,9 @@
-<<<<<<< HEAD
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
-module.exports = {
-  /* Your site config here */
-  plugins: [],
-};
-=======
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Lesesalen`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Mathias Bøe`,
+      summary: `who likes to try new stuff.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -93,4 +81,3 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
->>>>>>> dd65ff8... Initial commit from gatsby: (https://github.com/gatsbyjs/gatsby-starter-blog.git)

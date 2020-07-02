@@ -1,10 +1,4 @@
 {
-<<<<<<< HEAD
-    "tabWidth": 2,
-    "useTabs": false
-}
-=======
   "arrowParens": "avoid",
   "semi": false
 }
->>>>>>> dd65ff8... Initial commit from gatsby: (https://github.com/gatsbyjs/gatsby-starter-blog.git)

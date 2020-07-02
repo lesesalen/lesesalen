@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-[![Netlify Status](https://api.netlify.com/api/v1/badges/da7b1a36-2d0d-4d40-8c8f-1b608a1dabc3/deploy-status)](https://app.netlify.com/sites/lesesalen/deploys)
-
-# lesesalen
-Lets get this show on the road
-=======
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -103,4 +97,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
->>>>>>> dd65ff8... Initial commit from gatsby: (https://github.com/gatsbyjs/gatsby-starter-blog.git)
