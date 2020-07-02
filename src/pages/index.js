@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+// import Bio from "../components/bio" TODO: same as below
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tags from "../components/tags"
@@ -15,23 +15,25 @@ const BlogIndex = ({ data, location }) => {
   const StyledLink = styled(Link)`
     box-shadow: none;
   `
+  const StyledH2 = styled.h2`
+    margin-top: 0px;
+  `
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Bio />
+      {/* <Bio />  TODO: Uncomment this after making a working bio component*/}
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         const tags = node.frontmatter.tags
         return (
           <Card>
             <article key={node.fields.slug}>
-              <h2>
-                <StyledLink to={node.fields.slug}>{title}</StyledLink>
-              </h2>
-              <small>{node.frontmatter.date}</small>
-              {tags && tags.length > 0 ? ` - ` : ``}
               <Tags>{tags}</Tags>
+              <StyledH2>
+                <StyledLink to={node.fields.slug}>{title}</StyledLink>
+              </StyledH2>
+              <small>{node.frontmatter.date}</small>
               <section>
                 <p
                   dangerouslySetInnerHTML={{
