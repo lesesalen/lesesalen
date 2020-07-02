@@ -29,11 +29,12 @@ const BlogIndex = ({ data, location }) => {
         return (
           <Card>
             <article key={node.fields.slug}>
+              <small>{node.frontmatter.date}</small>
+              {tags && tags.length > 0 ? ` - ` : ``}
               <Tags>{tags}</Tags>
               <StyledH2>
                 <StyledLink to={node.fields.slug}>{title}</StyledLink>
               </StyledH2>
-              <small>{node.frontmatter.date}</small>
               <section>
                 <p
                   dangerouslySetInnerHTML={{
