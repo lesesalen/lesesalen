@@ -11,7 +11,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          ...scale(1.3),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
@@ -42,7 +42,7 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
+          Back to home
         </Link>
       </h3>
     )
