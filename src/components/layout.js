@@ -2,17 +2,21 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import Nav from "./nav";
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
+  const notesPath = `${__PATH_PREFIX__}/notes/`
+  const infoPath = `${__PATH_PREFIX__}/info/`
+  const bedpressPath = `${__PATH_PREFIX__}/bedpress/`
   let header
 
-  if (location.pathname === rootPath) {
+  if (location.pathname === rootPath || location.pathname === notesPath || location.pathname === bedpressPath || location.pathname === infoPath) {
     header = (
       <h1
         style={{
           ...scale(1.3),
-          marginBottom: rhythm(1.5),
+          marginBottom: rhythm(0),
           marginTop: 0,
         }}
       >
@@ -57,6 +61,7 @@ const Layout = ({ location, title, children }) => {
       }}
     >
       <header>{header}</header>
+      <Nav />
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
