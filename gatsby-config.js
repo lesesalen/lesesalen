@@ -27,6 +27,10 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {},
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

@@ -16,8 +16,8 @@ const StyledNav = styled.div`
 `;
 
 const StyledH4 = styled.h4`
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 `;
 
 export default function Nav() {
