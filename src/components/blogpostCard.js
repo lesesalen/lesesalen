@@ -41,7 +41,6 @@ const StyledCard = styled.div`
     border-radius: 8px;
     padding: 15px;
     opacity: 0;
-    transform: translateY(50px);
     transition: 250ms all ease-in-out;
     margin: ${props => (props.noMargin ? 0 : "12px")};
 		box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
