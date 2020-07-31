@@ -10,7 +10,7 @@ import styled from "styled-components"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
+  const posts = data.allMdx.edges
 
   const StyledLink = styled(Link)`
     box-shadow: none;
@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Notes" />
       {/* <Bio />  TODO: Uncomment this after making a working bio component*/}
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -53,28 +53,30 @@ const BlogIndex = ({ data, location }) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-query {
-
-  site {
-    siteMetadata {
-      title
+  query {
+    site {
+      siteMetadata {
+        title
+      }
     }
-  }
-  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {fileAbsolutePath: {regex: "/notes/"}}) {
-    edges {
-      node {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "DD MMMM, YYYY")
-          title
-          description
-          tags
+    allMdx(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fileAbsolutePath: { regex: "/notes/" } }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "DD MMMM, YYYY")
+            title
+            description
+            tags
+          }
         }
       }
     }
   }
-}
 `
