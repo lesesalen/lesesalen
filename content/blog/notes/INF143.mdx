@@ -5,7 +5,7 @@ description: "Norwegian notes on INF143"
 tags: Notes
 ---
 
-# Nettbank
+## Nettbank
 
 - Kunne forklare hvordan innlogging i de første nettbankene fungerte tidlig på 2000-tallet
   - Ny kunde oppga fødselsnummer og navn
@@ -43,7 +43,7 @@ tags: Notes
   - Kunne løst det med en lengre PIN-kode og rekommandert brev i posten
   - Gikk etter hvert over til statisk passord og engangspassord for alle pålogginger.
 
-## Nettbank 2
+### Nettbank 2
 
 - Kunne forklare hva som er spesielt med DoS-angrep på applikasjonslaget, og hvorfor dagens nettbanker er spesielt sårbare for dette.
   - De er ekstra sårbare på grunn av rutiner for innlogging (sperring av konto)
@@ -71,7 +71,7 @@ tags: Notes
   - RSA SecurID kunne få opp til 41, men spurte om en ekstra PIN hvis vinduet ble stort
   - Angrep på 6-sifret PIN, vindu på 3 = 3 \* (3/1,000,000) > Sannsynlighet for å knekke min én kode 0.97
 
-# SQL injection
+## SQL injection
 
 - Ha overfladisk kunnskap om hva en database er og hvordan man utfører spørringer mot en database
 
@@ -91,7 +91,7 @@ tags: Notes
     - Limit the amount of information the attacker gets for each attempt
     - Internal error messages
 
-# XSS
+## XSS
 
 Cross Site Scripting (XSS)
 
@@ -148,7 +148,7 @@ Cross Site Scripting (XSS)
 - XSS et av de vanligste angrepene
 - Same origin policy: Et script kan kun aksessere data fra samme webside som det ble kjørt fra (fra browseren sin side)
 
-# CSRF
+## CSRF
 
 Cross Site Request Forgery (CSRF)
 
@@ -193,7 +193,7 @@ Cross Site Request Forgery (CSRF)
     - Ikke starte andre ting mens man er logget inn (urealistisk)
     - Aldri lagre passord/brukernavn i browser
 
-# Pharming
+## Pharming
 
 - Vite hva pharming er, og hva som er målet og konsekvensene
   - Ordspill; Farming/Phising
@@ -238,7 +238,7 @@ Cross Site Request Forgery (CSRF)
   - Enkelt angrep, effektivt, liten sjanse for at brukeren oppdager angrepet.
   - Mitigering: Endre default-passord, Java-applets burde ikke kunne opprette socket connections uten videre.
 
-# DOS
+## DOS
 
 • Vite hva et DoS angrep er, og forskjellen mellom flooding og vulnerability
     Denial of Service - har som mål å hindre en applikasjon/tjener/nettverk i å tilby en tjeneste
@@ -310,7 +310,7 @@ Phatbot
 Konklusjon
     Ingen fullstendig mitigering, men overvåking på applikasjonsnivå kan delvis mitigere.
 
-# Electronic surveilance
+## Electronic surveilance
 
 Electronic Surveillance
 
@@ -379,7 +379,7 @@ Electronic Surveillance
     - Tor nettverk
     - Trustworthy encryption som TLS eller PGP
 
-# Tor - Anonymity on the Internet
+## Tor - Anonymity on the Internet
 
 - Vite hvordan man kan identifiseres i vanlig nettbruk
   - Vanlig nettaktivitet er ikke anonymt. IP-adresser til sender/receiver sendes i klartekst
@@ -458,7 +458,7 @@ Dette gjør det vanskeligere for noen å monitorere exit nodes
     - Lager circuit automatisk, sender data gjennom
     - Default: Lagrer ikke cookies, bruker bare HTTPS, NoScript,
 
-# WEP
+## WEP
 
 ### WEP Failure (Wired Equivalent Privacy)**
 
@@ -520,7 +520,7 @@ Dette gjør det vanskeligere for noen å monitorere exit nodes
     - Portaler kan brukes til å autentisere MS gjennom en login-page
     - VPN kan brukes
 
-# WPA - WiFi Protected Access
+## WPA - WiFi Protected Access
 
 - Specification av forbedringer til WiFi mtp autentisering, meldingsintegritet, replay prevention, privacy og nøkkeldistribusjon.
 - Fremoverkompatibelt med WPA2 (802.11i)
@@ -711,7 +711,7 @@ Mulige angrep i WPA (Fra slide om WPA2)
     - Levere modifisert korrupt pakke til BS før den mottar en melding med høyere TSC (Sekvens)
   - Kan gjøres enklere i en kombinasjon med et MitM for å gjøre stegene over lettere
 
-# WPA2
+## WPA2
 
 - Vite hva AES er
   - Krypteringsstandard satt av NIST i 2002
@@ -754,7 +754,7 @@ Recap
 - Enheter i WPA/WPA2 kan finne hverandres temporal keys i SOHO-mode
 - ARP spoofing i WPA er en grunn til å bruke WPA2 med AES
 
-# Autentisering
+## Autentisering
 
 - Kunne forklare autentiseringsbegrepet og rollene til de tre partene som alltid er med i et autentiseringssystem
   - Autentisering er prosessen for å opprette troverdighet rundt en påstand
@@ -842,7 +842,7 @@ Recap
   - Systemer kan samle inn informasjon fra flere systemer hvis de har sterke identifikatorer
   - Individautentisering introduserer muligheter for sosialkontroll i samfunnet
 
-# Password management
+## Password management
 
 - Kunne gi grunner til hvorfor man ikke skal lagre passord i klartekst
   - Database admins og sysadmins kan se passordet til alle
@@ -915,7 +915,7 @@ passord
 - (-)  Fire meldinger for auth
 - (-)  Single user bruteforce fremdeles mulig hvis passordfilen lekker
 
-# PKI (Public key certificates)
+## PKI (Public key certificates)
 
 - Vite hvilke nøkler som brukes til kryptering/dekryptering og signering/ verifisering i et offentlig nøkkel system
   - Private keys: Holdes hemmelig!
@@ -986,7 +986,7 @@ passord
 - Vite forskjellen mellom kritiske og ikke-kritiske utvidelser
   - Hvis utvidelsen er flagget som kritisk må den evalueres og forstås, hvis ikke kan ikke sertifkatet brukes
 
-# Components and architecture of PKI
+## Components and architecture of PKI
 
 - Består av 1 eller flere CAs og RAs, et repo og et archive.
 
@@ -1063,7 +1063,7 @@ passord
   - PGP bestemmer validity ut fra trust level fra andre brukere
   - Ingen CRLs. Brukere kan revoke sin signatur på et sertifikat
 
-# Key and certificate management
+## Key and certificate management
 
 - Kunne gjøre rede for hva som er god praksis i registreringsprosessen i en PKI
   - Initialiseringsfasen
@@ -1172,7 +1172,7 @@ passord
     - Good/revoked/unknown
   - OCSP må signeres med OCSP server sitt sertifikat, så bruker må få tak i OCSP public key og kunne ha kontroll på dens revocation status.
 
-# TLS - Transport Layer Security
+## TLS - Transport Layer Security
 
 - Kunne gjengi hovedtrekk i utviklingen av SSL/TLS og hvilke typer sikkerhet som gis av TLS
 
@@ -1255,7 +1255,7 @@ Limitations
     - Kun sterke parametere
   - Beskyttelse mot downgrade. Server må sette DH til spesiell value hvis klient sier han kun godtar TLS 1.2 og lavere
 
-# PKI in the real world
+## PKI in the real world
 
 - Kunne gi en kort forklaring på prosessen for å få rotsertifikat inkludert i de største operativsystemer og nettlesere
   - Microsoft lar noen CAs bli inkludet i Windows OS (Microsoft trusted root program)
@@ -1341,7 +1341,7 @@ Limitations
       - Chrome har hardcoded et pinned \*.google.com sertifikat
         - Denne mekanismen merket DigiNotar-angrepet
 
-# Cloud Computing introduction
+## Cloud Computing introduction
 
 - Kunne forklare hvilke trekk som kjennetegner cloud computing
   - Cloud gir infrastruktur og/eller software services
@@ -1423,7 +1423,7 @@ Limitations
   - Leverandører av skytjenester vil ikke diskutere sikkerheten rundt det
   - Primary concern
 
-# Cloud security
+## Cloud security
 
 - Kunne forskjell på availablity og durability av data i skyen, og kunne forklare hvorfor det er vesensforskjell mellom 99% og 99.99% oppetid
   - Det finnes en mulighet for å miste data eller ha nedetid dersom
