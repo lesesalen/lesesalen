@@ -16,6 +16,7 @@ const Toc = styled.ul`
   max-height: 70vh;
   width: 310px;
   display: flex;
+  }
 `
 const InnerScroll = styled.div`
   overflow: hidden;

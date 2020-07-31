@@ -8,7 +8,7 @@ import Tags from "../components/tags"
 import Card from "../components/blogpostCard"
 import styled from "styled-components"
 
-const BlogIndex = ({ data, location }) => {
+const InfoIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMdx.edges
 
@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default InfoIndex
 
 export const pageQuery = graphql`
   query {
