@@ -10,48 +10,6 @@ Som ny student er det mange ting du må få oversikt over, og overgangen fra vid
 
 > Disclaimer: Denne guiden reflekterer i stor grad mine personlige synspunkt og meninger, og representerer hverken echo, Helt Sikker eller UiB.
 
-Innholdsfortegnelse:
-
-- [II Survival guide: "Det alle vet, men ingen forteller deg"](#ii-survival-guide-det-alle-vet-men-ingen-forteller-deg)
-  - [TL;DR](#tldr)
-  - [Livet som (ny) student](#livet-som-ny-student)
-    - [Første Uka](#første-uka)
-    - [Eduroam](#eduroam)
-    - [Helse](#helse)
-    - [Sammen](#sammen)
-    - [Ordliste og nyttige begreper](#ordliste-og-nyttige-begreper)
-    - [Kalender for et typisk høstsemester](#kalender-for-et-typisk-høstsemester)
-    - [Studieveiledere](#studieveiledere)
-    - [Bøker](#bøker)
-    - [Fag](#fag)
-    - [Valg av PC](#valg-av-pc)
-    - [Programmeringen](#programmeringen)
-      - [Om Programmering](#om-programmering)
-      - [IDEs og Editors](#ides-og-editors)
-      - [Git, GitHub, GitLab, Bitbucket](#git-github-gitlab-bitbucket)
-      - [GitHub Student Developer Pack](#github-student-developer-pack)
-      - [Greia med utviklere og gummiender](#greia-med-utviklere-og-gummiender)
-    - [Matematikken](#matematikken)
-    - [Orakeltjeneste](#orakeltjeneste)
-  - [Forelesninger, innleveringer og eksamen](#forelesninger-innleveringer-og-eksamen)
-    - [Forelesninger](#forelesninger)
-    - [Innleveringer](#innleveringer)
-    - [Eksamen](#eksamen)
-      - [Stryk](#stryk)
-  - [Lesesaler og grupperom](#lesesaler-og-grupperom)
-    - [Institutt for informatikk](#institutt-for-informatikk)
-  - [Valgfag](#valgfag)
-    - [Informatikk](#informatikk)
-    - [InfoMedia](#infomedia)
-    - [Matematikk](#matematikk)
-  - [Studentgrupper og dette med å engasjere seg sosialt](#studentgrupper-og-dette-med-å-engasjere-seg-sosialt)
-    - [Verv](#verv)
-    - [Konferanser](#konferanser)
-    - [**echo**](#echo)
-    - [Facebookgrupper tilknyttet echo](#facebookgrupper-tilknyttet-echo)
-    - [Bedriftspresentasjoner](#bedriftspresentasjoner)
-    - [For den sikkerhetsinteresserte](#for-den-sikkerhetsinteresserte)
-
 ## TL;DR
 
 - Matnat har en [sjekkliste for studiestart](https://www.uib.no/student/127911/sjekkliste-i-studiestarten).
