@@ -36,6 +36,14 @@ Programmeringssider:
 - Kattis: [https://open.kattis.com/](https://open.kattis.com/)
 - HackerRank: [https://www.hackerrank.com/](https://www.hackerrank.com/)
 
+Samfunn og sosiale nettverk:
+
+- Discord: [https://discord.gg/FB4T6WF](https://discord.gg/FB4T6WF)
+
+<iframe src="https://discord.com/widget?id=687650156262195217&theme=dark" width="85%" height="200" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+- Facebook: [https://www.facebook.com/groups/informatikk/](https://www.facebook.com/groups/informatikk/)
+
 ## Livet som (ny) student
 
 Her følger noen tips til studenthverdagen ved II.
