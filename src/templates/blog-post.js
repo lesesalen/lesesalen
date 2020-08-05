@@ -1,15 +1,33 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import TableOfContents from "../components/TableOfContents"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import styled from "styled-components"
 
 // import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+const Toc = styled.ul`
+  position: fixed;
+  left: calc(50% + 400px);
+  top: 110px;
+  max-height: 70vh;
+  width: 310px;
+  display: flex;
+  }
+`
+const InnerScroll = styled.div`
+  overflow: hidden;
+  overflow-y: scroll;
+`
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark
+  const post = data.mdx
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
+  const tocData = data.mdx
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -17,6 +35,13 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      {tocData?.tableOfContents?.items && (
+        <Toc>
+          <InnerScroll>
+            <TableOfContents items={tocData.tableOfContents.items} />
+          </InnerScroll>
+        </Toc>
+      )}
       <article>
         <header>
           <h1
@@ -37,7 +62,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {post.frontmatter.date}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -87,10 +112,11 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      html
+      body
+      tableOfContents(maxDepth: 5)
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
