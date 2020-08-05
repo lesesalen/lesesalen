@@ -2,7 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
-import Nav from "./nav";
+import Nav from "./nav"
+import StyledHeader from "./header"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -11,26 +12,13 @@ const Layout = ({ location, title, children }) => {
   const bedpressPath = `${__PATH_PREFIX__}/bedpress/`
   let header
 
-  if (location.pathname === rootPath || location.pathname === notesPath || location.pathname === bedpressPath || location.pathname === infoPath) {
-    header = (
-      <h1
-        style={{
-          ...scale(1.3),
-          marginBottom: rhythm(0),
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          {title}
-        </Link>
-      </h1>
-    )
+  if (
+    location.pathname === rootPath ||
+    location.pathname === notesPath ||
+    location.pathname === bedpressPath ||
+    location.pathname === infoPath
+  ) {
+    header = <StyledHeader />
   } else {
     header = (
       <h3
