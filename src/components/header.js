@@ -26,6 +26,20 @@ class Clock extends React.Component {
   }
 }
 
+class Week extends React.Component {
+  getWeekNumber(d) {
+    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()))
+    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7))
+    var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1))
+    var weekNo = Math.ceil(((d - yearStart) / 86400000 + 1) / 7)
+    return [d.getUTCFullYear(), weekNo]
+  }
+  render() {
+    var week = "Week"
+    return week + " " + this.getWeekNumber(new Date())[1]
+  }
+}
+
 const StyledDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -55,6 +69,8 @@ export default function StyledHeader() {
       <>
         <p style={{ bottom: 0 }}>
           <Clock />
+          &nbsp; - &nbsp;
+          <Week />
         </p>
       </>
     </StyledDiv>
