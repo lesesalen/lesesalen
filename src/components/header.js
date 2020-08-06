@@ -52,11 +52,9 @@ export default function StyledHeader() {
           Lesesalen
         </Link>
       </h1>
-      <>
-        <p style={{ bottom: 0 }}>
-          <Clock />
-        </p>
-      </>
+      <p style={{ bottom: 0 }}>
+        <Clock />
+      </p>
     </StyledDiv>
   )
 }
