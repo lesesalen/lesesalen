@@ -27,16 +27,41 @@ class Clock extends React.Component {
 }
 
 class Week extends React.Component {
-  getWeekNumber(d) {
+  constructor(props) {
+    super(props)
+    this.state = {
+      week: this.getWeekNumber(),
+    }
+  }
+  componentDidMount() {
+    const d = new Date(),
+      timeToRefresh = new Date()
+    const day = d.getDay
+    const isEndOfWeek = day === 6 // 6 = last day of the week
+    timeToRefresh.setHours(23, 55) // initializing week number refreshing when almost midnight at the last day of the week
+    if (isEndOfWeek && Date.parse(timeToRefresh) < Date.parse(d)) {
+      this.intervalID = setInterval(() => this.update(), 1000)
+    }
+  }
+  componentWillUnmount() {
+    clearInterval(this.intervalID)
+  }
+  update() {
+    this.setState({
+      week: this.getWeekNumber(),
+    })
+  }
+  getWeekNumber() {
+    var d = new Date()
     d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()))
+    console.log(d)
     d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7))
     var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1))
     var weekNo = Math.ceil(((d - yearStart) / 86400000 + 1) / 7)
-    return [d.getUTCFullYear(), weekNo]
+    return weekNo
   }
   render() {
-    var week = "Week"
-    return week + " " + this.getWeekNumber(new Date())[1]
+    return "week " + this.state.week
   }
 }
 
@@ -69,7 +94,7 @@ export default function StyledHeader() {
       <>
         <p style={{ bottom: 0 }}>
           <Clock />
-          &nbsp; - &nbsp;
+          &nbsp;-&nbsp;
           <Week />
         </p>
       </>
