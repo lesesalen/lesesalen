@@ -25,8 +25,8 @@ export default function Nav() {
         <StyledNav>
             <Link to='/'><StyledH4>HOME</StyledH4></Link>
             <Link to='/notes/'><StyledH4>NOTES</StyledH4></Link>
-            <Link to='/bedpress/'><StyledH4>BEDPRESS</StyledH4></Link>
             <Link to='/info/'><StyledH4>INFO</StyledH4></Link>
+            <Link to='/other/'><StyledH4>OTHER</StyledH4></Link>
         </StyledNav>
     )
 }

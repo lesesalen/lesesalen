@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 import Nav from "./nav"
 import StyledHeader from "./header"
 
@@ -9,13 +9,13 @@ const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const notesPath = `${__PATH_PREFIX__}/notes/`
   const infoPath = `${__PATH_PREFIX__}/info/`
-  const bedpressPath = `${__PATH_PREFIX__}/bedpress/`
+  const otherPath = `${__PATH_PREFIX__}/other/`
   let header
 
   if (
     location.pathname === rootPath ||
     location.pathname === notesPath ||
-    location.pathname === bedpressPath ||
+    location.pathname === otherPath ||
     location.pathname === infoPath
   ) {
     header = <StyledHeader />

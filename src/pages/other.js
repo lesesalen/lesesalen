@@ -61,7 +61,7 @@ export const pageQuery = graphql`
     }
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fileAbsolutePath: { regex: "/bedpress/" } }
+      filter: { fileAbsolutePath: { regex: "/other/" } }
     ) {
       edges {
         node {
