@@ -1,16 +1,16 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-import { rhythm } from "../utils/typography"
-import Nav from "./nav"
-import StyledHeader from "./header"
+import { rhythm } from "../utils/typography";
+import Nav from "./nav";
+import StyledHeader from "./header";
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const notesPath = `${__PATH_PREFIX__}/notes/`
-  const infoPath = `${__PATH_PREFIX__}/info/`
-  const otherPath = `${__PATH_PREFIX__}/other/`
-  let header
+  const rootPath = `${__PATH_PREFIX__}/`;
+  const notesPath = `${__PATH_PREFIX__}/notes/`;
+  const infoPath = `${__PATH_PREFIX__}/info/`;
+  const otherPath = `${__PATH_PREFIX__}/other/`;
+  let header;
 
   if (
     location.pathname === rootPath ||
@@ -18,7 +18,7 @@ const Layout = ({ location, title, children }) => {
     location.pathname === otherPath ||
     location.pathname === infoPath
   ) {
-    header = <StyledHeader />
+    header = <StyledHeader />;
   } else {
     header = (
       <h3
@@ -37,7 +37,7 @@ const Layout = ({ location, title, children }) => {
           Back to home
         </Link>
       </h3>
-    )
+    );
   }
   return (
     <div
@@ -57,7 +57,7 @@ const Layout = ({ location, title, children }) => {
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

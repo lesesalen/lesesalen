@@ -1,4 +1,4 @@
-import { injectGlobal } from "styled-components"
+import { injectGlobal } from "styled-components";
 
 injectGlobal`
   @import url(‘https://fonts.googleapis.com/css?family=Montserrat:400,900|Roboto');
@@ -10,4 +10,4 @@ injectGlobal`
   h1 {
     font-family: Montserrat;
   }
-`
+`;

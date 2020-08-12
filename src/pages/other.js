@@ -1,31 +1,31 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from "react";
+import { Link, graphql } from "gatsby";
 
 // import Bio from "../components/bio" TODO: same as below
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Tags from "../components/tags"
-import Card from "../components/blogpostCard"
-import styled from "styled-components"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Tags from "../components/tags";
+import Card from "../components/blogpostCard";
+import styled from "styled-components";
 
 const BedpressIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMdx.edges
+  const siteTitle = data.site.siteMetadata.title;
+  const posts = data.allMdx.edges;
 
   const StyledLink = styled(Link)`
     box-shadow: none;
-  `
+  `;
   const StyledH2 = styled.h2`
     margin-top: 0px;
-  `
+  `;
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Bedpress" />
       {/* <Bio />  TODO: Uncomment this after making a working bio component*/}
       {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        const tags = node.frontmatter.tags
+        const title = node.frontmatter.title || node.fields.slug;
+        const tags = node.frontmatter.tags;
         return (
           <Card>
             <article key={node.fields.slug}>
@@ -44,13 +44,13 @@ const BedpressIndex = ({ data, location }) => {
               </section>
             </article>
           </Card>
-        )
+        );
       })}
     </Layout>
-  )
-}
+  );
+};
 
-export default BedpressIndex
+export default BedpressIndex;
 
 export const pageQuery = graphql`
   query {
@@ -79,4 +79,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

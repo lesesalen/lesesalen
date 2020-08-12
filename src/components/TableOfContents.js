@@ -1,47 +1,47 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
 
 function getIds(items) {
   return items.reduce((acc, item) => {
     if (item.url) {
       // url has a # as first character, remove it to get the raw CSS-id
-      acc.push(item.url.slice(1))
+      acc.push(item.url.slice(1));
     }
     if (item.items) {
-      acc.push(...getIds(item.items))
+      acc.push(...getIds(item.items));
     }
-    return acc
-  }, [])
+    return acc;
+  }, []);
 }
 
 function useActiveId(itemIds) {
-  const [activeId, setActiveId] = useState(`test`)
+  const [activeId, setActiveId] = useState(`test`);
   useEffect(() => {
     const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
+      (entries) => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setActiveId(entry.target.id)
+            setActiveId(entry.target.id);
           }
-        })
+        });
       },
       { rootMargin: `0% 0% -80% 0%` }
-    )
-    itemIds.forEach(id => {
-      observer.observe(document.getElementById(id))
-    })
+    );
+    itemIds.forEach((id) => {
+      observer.observe(document.getElementById(id));
+    });
     return () => {
-      itemIds.forEach(id => {
-        observer.unobserve(document.getElementById(id))
-      })
-    }
-  }, [itemIds])
-  return activeId
+      itemIds.forEach((id) => {
+        observer.unobserve(document.getElementById(id));
+      });
+    };
+  }, [itemIds]);
+  return activeId;
 }
 
 function renderItems(items, activeId) {
   return (
     <ol>
-      {items.map(item => {
+      {items.map((item) => {
         return (
           <li key={item.url}>
             <a
@@ -54,21 +54,21 @@ function renderItems(items, activeId) {
             </a>
             {item.items && renderItems(item.items, activeId)}
           </li>
-        )
+        );
       })}
     </ol>
-  )
+  );
 }
 
 function TableOfContents(props) {
-  const idList = getIds(props.items)
-  const activeId = useActiveId(idList)
+  const idList = getIds(props.items);
+  const activeId = useActiveId(idList);
   return (
     <details open>
       <summary>Table of Contents</summary>
       {renderItems(props.items, activeId)}
     </details>
-  )
+  );
 }
 
-export default TableOfContents
+export default TableOfContents;
