@@ -1,13 +1,13 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import TableOfContents from "../components/TableOfContents"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import styled from "styled-components"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import TableOfContents from "../components/TableOfContents";
+import { MDXRenderer } from "gatsby-plugin-mdx";
+import styled from "styled-components";
 
 // import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { rhythm, scale } from "../utils/typography";
 
 const Toc = styled.ul`
   position: fixed;
@@ -17,17 +17,17 @@ const Toc = styled.ul`
   width: 310px;
   display: flex;
   }
-`
+`;
 const InnerScroll = styled.div`
   overflow: hidden;
   overflow-y: scroll;
-`
+`;
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.mdx
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
-  const tocData = data.mdx
+  const post = data.mdx;
+  const siteTitle = data.site.siteMetadata.title;
+  const { previous, next } = pageContext;
+  const tocData = data.mdx;
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -100,10 +100,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -124,4 +124,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

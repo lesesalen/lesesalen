@@ -1,5 +1,5 @@
-import Typography from "typography"
-import OceanBeach from "typography-theme-ocean-beach"
+import Typography from "typography";
+import OceanBeach from "typography-theme-ocean-beach";
 
 OceanBeach.overrideThemeStyles = () => {
   return {
@@ -12,16 +12,16 @@ OceanBeach.overrideThemeStyles = () => {
       textDecoration: "underline black",
       backgroundImage: "none",
     },
-  }
-}
+  };
+};
 
-const typography = new Typography(OceanBeach)
+const typography = new Typography(OceanBeach);
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
-  typography.injectStyles()
+  typography.injectStyles();
 }
 
-export default typography
-export const rhythm = typography.rhythm
-export const scale = typography.scale
+export default typography;
+export const rhythm = typography.rhythm;
+export const scale = typography.scale;

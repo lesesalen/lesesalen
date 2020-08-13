@@ -1,4 +1,4 @@
-const remarkSlug = require(`remark-slug`)
+const remarkSlug = require(`remark-slug`);
 
 module.exports = {
   siteMetadata: {
@@ -85,4 +85,4 @@ module.exports = {
       },
     },
   ],
-}
+};
