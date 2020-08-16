@@ -1,11 +1,22 @@
 ---
-title: 33 - Playlist of the week
+title: Playlist of the week - Updated every week
 author: Mathias Bøe
 tags: playlist, week
-date: 2020-08-10
+date: 2020-08-17
 ---
+## Week 34 - Progressive progression
 
-## Week 33
+Now let the studies begin, therefore I've collected some songs with little to no lyrics and lots of atmosphere so you have something to listen to while you read or study. To everyone who did their part during "fadderuka" to make it safe for everyone, thank you so much! It's important that we keep working together to make the university a Covid-free zone!
+
+Heres the playlist:
+
+<iframe src="https://open.spotify.com/embed/playlist/3EsSRpOURWEkZXk9pGjzFx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+As a tiny bonus because I know you like to have some fun, here is a playlist that is not meant to be listened to:
+
+<iframe src="https://open.spotify.com/embed/playlist/78rX4tUSJn6HRxhufaakmY" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+## Week 33 - Fadderuke
 
 "Fadderuka" is here!
 
