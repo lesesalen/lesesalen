@@ -83,5 +83,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-Once a pull request is opened netlify will automatically build a snapshot so you can view the changes you made. Sometimes the build breaks even though it works on the dev server, so it's always worth checking and fix it yourself before someone else tells you to.
+Once a pull request is opened, netlify will automatically build a snapshot so you can view the changes you made. Sometimes the build breaks even though it works on the dev server, so it's always worth checking and fix it yourself before someone else tells you to.
 
