@@ -11,8 +11,8 @@ const primaryCss = css`
   color: #fff;
 `;
 
-const bedpressCss = css`
-  background-color: #e500ce;
+const important = css`
+  background-color: red;
   color: #fff;
 `;
 
@@ -37,28 +37,28 @@ const tagCss = css`
 `;
 
 const StyledCard = styled.div`
-    width: ${(props) => (props.big ? "90%px" : "70%px")};
+    width: ${props => (props.big ? "90%px" : "70%px")};
     border-radius: 8px;
     padding: 15px;
     opacity: 0;
     transition: 250ms all ease-in-out;
-    margin: ${(props) => (props.noMargin ? 0 : "12px")};
+    margin: ${props => (props.noMargin ? 0 : "12px")};
 		box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
     background-color: #F1F1F1;
-    ${(props) => props.animated && animatedCss}
-		${(props) => props.primary && primaryCss}
-		${(props) => props.bedpress && bedpressCss}
-		${(props) => props.news && newsCss}
-		${(props) => props.other && otherCss}
-    ${(props) => props.notes && notesCss}
-    ${(props) => props.tags && tagCss}
+    ${props => props.animated && animatedCss}
+		${props => props.primary && primaryCss}
+		${props => props.important && important}
+		${props => props.news && newsCss}
+		${props => props.other && otherCss}
+    ${props => props.notes && notesCss}
+    ${props => props.tags && tagCss}
 `;
 
 class Card extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      animated: false,
+      animated: false
     };
   }
 
@@ -75,7 +75,7 @@ class Card extends React.Component {
       delay = 0,
       noAnimation,
       primary,
-      bedpress,
+      important,
       news,
       other,
       notes,
@@ -88,7 +88,7 @@ class Card extends React.Component {
         animated={this.state.animated}
         delay={delay}
         primary={primary}
-        bedpress={bedpress}
+        important={important}
         news={news}
         other={other}
         notes={notes}

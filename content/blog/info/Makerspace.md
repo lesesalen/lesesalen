@@ -3,6 +3,7 @@ title: Makerspace informasjon
 date: 2020-08-11
 author: Mathias Bøe
 tags: Makerspace, info
+important: true
 ---
 
 ## Informasjon vedrørende makerspacet på matnat

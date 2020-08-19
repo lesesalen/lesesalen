@@ -26,19 +26,34 @@ const BlogIndex = ({ data, location }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         const tags = node.frontmatter.tags;
+        const important = node.frontmatter.important;
         return (
-          <Card>
+          <Card important={important}>
             <article key={node.fields.slug}>
               <small>{node.frontmatter.date}</small>
               {tags && tags.length > 0 ? ` - ` : ``}
-              <Tags>{tags}</Tags>
+              <Tags
+                style={{
+                  color: important ? "white" : "gray"
+                }}
+              >
+                {tags}
+              </Tags>
               <StyledH2>
-                <StyledLink to={node.fields.slug}>{title}</StyledLink>
+                <StyledLink
+                  to={node.fields.slug}
+                  style={{
+                    color: important ? "white" : "black",
+                    textDecorationColor: important ? "white" : "black"
+                  }}
+                >
+                  {title}
+                </StyledLink>
               </StyledH2>
               <section>
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
+                    __html: node.frontmatter.description || node.excerpt
                   }}
                 />
               </section>
@@ -71,6 +86,7 @@ export const pageQuery = graphql`
             title
             description
             tags
+            important
           }
         }
       }
