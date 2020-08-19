@@ -34,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
               {tags && tags.length > 0 ? ` - ` : ``}
               <Tags
                 style={{
-                  color: important ? "white" : "gray"
+                  color: important ? "white" : "gray",
                 }}
               >
                 {tags}
@@ -44,7 +44,7 @@ const BlogIndex = ({ data, location }) => {
                   to={node.fields.slug}
                   style={{
                     color: important ? "white" : "black",
-                    textDecorationColor: important ? "white" : "black"
+                    textDecorationColor: important ? "white" : "black",
                   }}
                 >
                   {title}
@@ -53,7 +53,7 @@ const BlogIndex = ({ data, location }) => {
               <section>
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt
+                    __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
               </section>
@@ -74,7 +74,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { slug: { ne: "about" } }
+    ) {
       edges {
         node {
           excerpt
