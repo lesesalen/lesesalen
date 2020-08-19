@@ -40,7 +40,14 @@ function useActiveId(itemIds) {
 
 function renderItems(items, activeId) {
   return (
-    <ol>
+    <ul
+      style={{
+        listStyle: "none",
+        marginLeft: "6px",
+        paddingLeft: "6px",
+        borderLeft: "1px solid lightgray",
+      }}
+    >
       {items.map((item) => {
         return (
           <li key={item.url}>
@@ -56,7 +63,7 @@ function renderItems(items, activeId) {
           </li>
         );
       })}
-    </ol>
+    </ul>
   );
 }
 
