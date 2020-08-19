@@ -19,7 +19,7 @@ Welcome to the lesesalen repository! Fork this project, make it your own, make c
 
     ```shell
     cd lesesalen/
-    yarn/
+    yarn
     yarn start
     ```
 
