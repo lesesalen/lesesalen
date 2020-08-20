@@ -2,12 +2,9 @@
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Built using Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Lesesalen" src="https://raw.githubusercontent.com/mrboen94/lesesalen/master/content/assets/lesesalen-header.svg" width="2000" />
   </a>
 </p>
-<h1 align="center">
-  Lesesalen
-</h1>
 
 Welcome to the lesesalen repository! Fork this project, make it your own, make changes and open pull requests to help this project get off the ground!
 
