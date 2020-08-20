@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { rhythm, scale } from "../utils/typography";
 import { Link } from "gatsby";
+import Logo from "../../content/assets/lesesalen-header.svg";
 
 class Clock extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      time: new Date().toLocaleString(),
+      time: new Date().toLocaleString()
     };
   }
   componentDidMount() {
@@ -18,7 +19,7 @@ class Clock extends React.Component {
   }
   tick() {
     this.setState({
-      time: new Date().toLocaleString(),
+      time: new Date().toLocaleString()
     });
   }
   render() {
@@ -30,7 +31,7 @@ class Week extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      week: this.getWeekNumber(),
+      week: this.getWeekNumber()
     };
   }
   componentDidMount() {
@@ -48,7 +49,7 @@ class Week extends React.Component {
   }
   update() {
     this.setState({
-      week: this.getWeekNumber(),
+      week: this.getWeekNumber()
     });
   }
   getWeekNumber() {
@@ -78,17 +79,17 @@ export default function StyledHeader() {
         style={{
           ...scale(1.3),
           marginBottom: rhythm(0),
-          marginTop: 0,
+          marginTop: 0
         }}
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
+            color: `inherit`
           }}
           to={`/`}
         >
-          Lesesalen
+          <Logo />
         </Link>
       </h1>
       <>

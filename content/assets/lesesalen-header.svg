@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 172">
+    <defs>
+        <linearGradient id="linear-gradient" x1="-692" y1="-101.17" x2="-539.36" y2="-172.34" gradientTransform="translate(684 256)" gradientUnits="userSpaceOnUse">
+            <stop offset=".6" stop-color="red"/>
+            <stop offset=".85" stop-color="#a80303"/>
+        </linearGradient>
+        <style>
+            .cls-5{letter-spacing:.02em}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Original">
+            <path fill="url(#linear-gradient)" d="M0 130.2V172l142-78V78L0 130.2z"/>
+            <path fill="red" d="M142 78v16L0 41.2V0l142 78z"/>
+            <text transform="translate(168.45 110.91)" font-family="Rockwell" font-size="105.9">
+                Lesesalen
+            </text>
+            <text transform="translate(174.89 143.06)" font-size="25.34" font-family="Rockwell">
+                <tspan class="cls-5">T</tspan><tspan x="14.91" y="0">he open source information library</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
