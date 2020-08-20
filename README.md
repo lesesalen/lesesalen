@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Built using Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Lesesalen" src="https://raw.githubusercontent.com/mrboen94/lesesalen/master/content/assets/lesesalen-header.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
