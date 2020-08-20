@@ -85,7 +85,8 @@ export default function StyledHeader() {
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`
+            color: `inherit`,
+            textDecoration: `none`
           }}
           to={`/`}
         >
