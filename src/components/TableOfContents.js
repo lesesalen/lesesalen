@@ -17,8 +17,8 @@ function useActiveId(itemIds) {
   const [activeId, setActiveId] = useState(`test`);
   useEffect(() => {
     const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
+      entries => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
             setActiveId(entry.target.id);
           }
@@ -26,11 +26,11 @@ function useActiveId(itemIds) {
       },
       { rootMargin: `0% 0% -80% 0%` }
     );
-    itemIds.forEach((id) => {
+    itemIds.forEach(id => {
       observer.observe(document.getElementById(id));
     });
     return () => {
-      itemIds.forEach((id) => {
+      itemIds.forEach(id => {
         observer.unobserve(document.getElementById(id));
       });
     };
@@ -45,16 +45,16 @@ function renderItems(items, activeId) {
         listStyle: "none",
         marginLeft: "6px",
         paddingLeft: "6px",
-        borderLeft: "1px solid lightgray",
+        borderLeft: "1px solid lightgray"
       }}
     >
-      {items.map((item) => {
+      {items.map(item => {
         return (
           <li key={item.url}>
             <a
               href={item.url}
               style={{
-                color: activeId === item.url.slice(1) ? "#950451" : "black",
+                color: activeId === item.url.slice(1) ? "red" : "black"
               }}
             >
               {item.title}
