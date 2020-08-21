@@ -15,25 +15,26 @@ const StyledNav = styled.div`
   z-index: 10;
 `;
 
-const StyledH4 = styled.h4`
+const StyledH1 = styled.h1`
   margin-top: 24px;
   margin-bottom: 24px;
+  font-size: 14pt;
 `;
 
 export default function Nav() {
   return (
     <StyledNav>
       <Link to="/">
-        <StyledH4>HOME</StyledH4>
+        <StyledH1>HOME</StyledH1>
       </Link>
       <Link to="/notes/">
-        <StyledH4>NOTES</StyledH4>
+        <StyledH1>NOTES</StyledH1>
       </Link>
       <Link to="/info/">
-        <StyledH4>INFO</StyledH4>
+        <StyledH1>INFO</StyledH1>
       </Link>
       <Link to="/other/">
-        <StyledH4>OTHER</StyledH4>
+        <StyledH1>OTHER</StyledH1>
       </Link>
     </StyledNav>
   );
