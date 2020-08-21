@@ -1,7 +1,8 @@
 ---
-title: Informasjon til nye studenter.
+title: Survival guide til nye studenter.
 date: 2020-07-01
 tags: info, survivalguide, blogpost
+important: true
 ---
 
 # II Survival guide: "Det alle vet, men ingen forteller deg"
