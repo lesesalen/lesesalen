@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import TableOfContents from "../components/TableOfContents";
+import { device } from "../utils/devices";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import styled from "styled-components";
 
@@ -10,17 +11,42 @@ import SEO from "../components/seo";
 import { rhythm, scale } from "../utils/typography";
 
 const Toc = styled.ul`
-  position: fixed;
-  left: calc(50% + 400px);
-  top: 110px;
-  max-height: 70vh;
-  width: 310px;
-  display: flex;
+  background-color: white;
+  z-index: 5;
+  @media ${device.mobileS} {
+    position: sticky;
+    margin: 0 auto;
+    top: 64px;
+    max-height: 50vh;
+    display: flex;
+    border-bottom: 1px solid black;
+  }
+  @media ${device.laptop} {
+    position: fixed;
+    left: calc(50% + 360px);
+    top: 64px;
+    max-height: 70vh;
+    width: 15%;
+    border: 0;
   }
 `;
+
 const InnerScroll = styled.div`
-  overflow: hidden;
+  width: 100%;
   overflow-y: scroll;
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: gray;
+  }
+  scrollbar-color: gray;
+  scrollbar-width: thin;
 `;
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -35,6 +61,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      {/*TODO: This render method needs investigating*/}
       {tocData?.tableOfContents?.items && (
         <Toc>
           <InnerScroll>
@@ -47,7 +74,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <h1
             style={{
               marginTop: rhythm(1),
-              marginBottom: 0,
+              marginBottom: 0
             }}
           >
             {post.frontmatter.title}
@@ -56,7 +83,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             style={{
               ...scale(-1 / 5),
               display: `block`,
-              marginBottom: rhythm(1),
+              marginBottom: rhythm(1)
             }}
           >
             {post.frontmatter.date}
@@ -65,7 +92,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
-            marginBottom: rhythm(1),
+            marginBottom: rhythm(1)
           }}
         />
         <footer>
@@ -80,7 +107,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             flexWrap: `wrap`,
             justifyContent: `space-between`,
             listStyle: `none`,
-            padding: 0,
+            padding: 0
           }}
         >
           <li>

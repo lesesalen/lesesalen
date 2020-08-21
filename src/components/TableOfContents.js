@@ -1,4 +1,23 @@
 import React, { useEffect, useState } from "react";
+import styled from "styled-components";
+
+const StyledDetails = styled.details`
+  padding: 0.5em 0.5em 0;
+  -focus: none;
+  outline: none;
+  list-style-type: normal;
+`;
+
+const StyledSummary = styled.summary`
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  -focus: none;
+  outline: none;
+`;
 
 function getIds(items) {
   return items.reduce((acc, item) => {
@@ -71,10 +90,10 @@ function TableOfContents(props) {
   const idList = getIds(props.items);
   const activeId = useActiveId(idList);
   return (
-    <details open>
-      <summary>Table of Contents</summary>
+    <StyledDetails closed>
+      <StyledSummary>Table of Contents</StyledSummary>
       {renderItems(props.items, activeId)}
-    </details>
+    </StyledDetails>
   );
 }
 

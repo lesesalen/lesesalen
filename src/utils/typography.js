@@ -4,14 +4,17 @@ import OceanBeach from "typography-theme-ocean-beach";
 OceanBeach.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+      boxShadow: `none`
     },
     a: {
       color: "#000000",
       textShadow: "none",
       textDecoration: "underline black",
-      backgroundImage: "none",
+      backgroundImage: "none"
     },
+    blockQuote: {
+      borderLeft: "0.5925rem solid red"
+    }
   };
 };
 
