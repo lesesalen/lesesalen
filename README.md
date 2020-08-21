@@ -5,6 +5,7 @@
 </p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/da7b1a36-2d0d-4d40-8c8f-1b608a1dabc3/deploy-status)](https://app.netlify.com/sites/lesesalen/deploys)
+
 [![Lighthouse accessibility](https://raw.githubusercontent.com/mrboen94/lesesalen/design/content/assets/badges/lighthouse_accessibility.svg)](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flesesalen.com)
 [![Lighthouse best-practises](https://raw.githubusercontent.com/mrboen94/lesesalen/design/content/assets/badges/lighthouse_best-practices.svg)](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flesesalen.com)
 [![Lighthouse performance](https://raw.githubusercontent.com/mrboen94/lesesalen/design/content/assets/badges/lighthouse_performance.svg)](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flesesalen.com)
