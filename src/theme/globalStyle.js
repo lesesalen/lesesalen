@@ -10,4 +10,8 @@ injectGlobal`
   h1 {
     font-family: Montserrat;
   }
+  @font-face {
+    font-family: "Rockwell";
+    src: url("Rockwell.woff") format("woff");
+  } 
 `;

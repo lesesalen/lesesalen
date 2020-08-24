@@ -58,7 +58,7 @@ As of now the best way to help out is to go to the repository of this page and f
 
 ## Why have you done this
 
-I don't know, that question is beyond me, but it's fun. It's also a way to distribute information quickly without having to go through a lot of meetings if its ok or not.
+I don't know, that question is beyond me, but it's fun. It's also a way to distribute information quickly without having to go through a lot of meetings to see if its ok or not.
 
 ## What can I post
 

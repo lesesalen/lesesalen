@@ -4,6 +4,12 @@ author: Mathias Bøe
 tags: playlist, week
 date: 2020-08-17
 ---
+## Week 35 - Blast from the Past
+
+Here is a blast from the past.
+
+<iframe src="https://open.spotify.com/embed/playlist/79kLau44WQEFVhsuNiCpAe" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 ## Week 34 - Progressive progression
 
 Now let the studies begin, therefore I've collected some songs with little to no lyrics and lots of atmosphere so you have something to listen to while you read or study. To everyone who did their part during "fadderuka" to make it safe for everyone, thank you so much! It's important that we keep working together to make the university a Covid-free zone!
