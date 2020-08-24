@@ -6,16 +6,17 @@
         </linearGradient>
         <style>
             .cls-5{letter-spacing:.02em}
+            @import url("Rockwell.woff");
         </style>
     </defs>
     <g id="Layer_2" data-name="Layer 2">
         <g id="Original">
             <path fill="url(#linear-gradient)" d="M0 130.2V172l142-78V78L0 130.2z"/>
             <path fill="red" d="M142 78v16L0 41.2V0l142 78z"/>
-            <text transform="translate(168.45 110.91)" font-family="Rockwell" font-size="105.9">
+            <text transform="translate(168.45 110.91)" font-family="Rockwell.woff" font-size="105.9">
                 Lesesalen
             </text>
-            <text transform="translate(174.89 143.06)" font-size="25.34" font-family="Rockwell">
+            <text transform="translate(174.89 143.06)" font-family="Rockwell.woff" font-size="25.34" >
                 <tspan class="cls-5">The open source information library</tspan>
             </text>
         </g>

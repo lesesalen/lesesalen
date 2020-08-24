@@ -5,32 +5,39 @@ module.exports = {
     title: `Lesesalen`,
     author: {
       name: `Lesesalen`,
-      summary: `Maintained and built by lesesalen`
+      summary: `Maintained and built by lesesalen`,
     },
     description: `A gathering of information for all the students at UiB`,
     siteUrl: `https://lesesalen.com`,
     social: {
-      twitter: `no twitter as of now`
-    }
+      twitter: `no twitter as of now`,
+    },
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
-        name: `blog`
-      }
+        name: `blog`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
-        name: `assets`
-      }
+        name: `assets`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/static/fonts/`,
+      },
     },
     {
       resolve: `gatsby-plugin-styled-components`,
-      options: {}
+      options: {},
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -39,12 +46,12 @@ module.exports = {
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              offsetY: `100`
-            }
+              offsetY: `100`,
+            },
           },
-          `gatsby-remark-prismjs`
-        ]
-      }
+          `gatsby-remark-prismjs`,
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-mdx`,
@@ -54,21 +61,21 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590
-            }
+              maxWidth: 590,
+            },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`
-            }
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
+          `gatsby-remark-smartypants`,
         ],
-        remarkPlugins: [remarkSlug]
-      }
+        remarkPlugins: [remarkSlug],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -76,7 +83,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
-      }
+      },
     },
     `gatsby-plugin-feed-mdx`,
     {
@@ -88,23 +95,23 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/lesesalen-icon.png`
-      }
+        icon: `content/assets/lesesalen-icon.png`,
+      },
     },
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets/
-        }
-      }
+          include: /assets/,
+        },
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`
-      }
-    }
-  ]
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
 };
