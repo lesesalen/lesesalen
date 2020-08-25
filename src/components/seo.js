@@ -18,8 +18,9 @@ const SEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
-            social {
-              twitter
+            siteUrl
+            author {
+              name
             }
           }
         }
@@ -28,6 +29,7 @@ const SEO = ({ description, lang, meta, title }) => {
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  const image = `${site.siteMetadata.siteUrl}/icons/icon-96x96.png`;
 
   return (
     <Helmet
@@ -37,39 +39,25 @@ const SEO = ({ description, lang, meta, title }) => {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
+        { itemprop: "name", content: title || site.siteMetadata.title },
+        { itemprop: "description", content: metaDescription },
+        { itemprop: "image", content: image },
+        { name: `description`, content: metaDescription },
+
+        { name: `twitter:card`, content: `summary` },
+        { name: "twitter:site", content: `Lesesalen` },
+        { name: `twitter:title`, content: title },
+        { name: `twitter:description`, content: metaDescription },
+        { name: `twitter:creator`, content: site.siteMetadata.author.name },
+        { name: "twitter:image", content: image },
+
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: title },
+        { property: "og:url", content: site.siteMetadata.siteUrl },
+        { property: "og:image", content: image },
+        { property: "og:description", content: metaDescription },
+        { property: "og:site_name", content: `Lesesalen` },
+      ]}
     />
   );
 };
