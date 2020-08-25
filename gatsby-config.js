@@ -33,11 +33,6 @@ module.exports = {
       options: {
         // optional & defaults
         subText: { author: "Lesesalen" },
-        imgWidth: 650,
-        imgHeight: 172,
-        x: 139,
-        y: 231,
-        outputImg: "lesesalen-header.png",
         // required (have to be specified)
         baseImg: path.resolve("./content/assets/lesesalen-header.png"),
       },
