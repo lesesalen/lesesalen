@@ -29,15 +29,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-social-banners`,
-      options: {
-        // optional & defaults
-        subText: { author: "Lesesalen" },
-        // required (have to be specified)
-        baseImg: path.resolve("./content/assets/lesesalen-header.png"),
-      },
-    },
-    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "fonts",
