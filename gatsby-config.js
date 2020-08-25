@@ -1,5 +1,4 @@
 const remarkSlug = require(`remark-slug`);
-const path = require(`path`);
 
 module.exports = {
   siteMetadata: {
