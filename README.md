@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://www.lesesalen.com">
     <img alt="Lesesalen" src="https://raw.githubusercontent.com/mrboen94/lesesalen/master/content/assets/lesesalen-header.svg" width="2000" />
   </a>
 </p>
