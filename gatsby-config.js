@@ -9,9 +9,6 @@ module.exports = {
     },
     description: `A gathering of information for all the students at UiB`,
     siteUrl: `https://lesesalen.com`,
-    social: {
-      twitter: `no twitter as of now`,
-    },
   },
   plugins: [
     {
