@@ -1,16 +1,21 @@
 /**
- * SEO component that queries for data with
+ * Seo component that queries for data with
  *  Gatsby's useStaticQuery React hook
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-const SEO = ({ description, lang, meta, title }) => {
+interface Props {
+  description?: string;
+  lang?: string;
+  title: string;
+}
+
+const Seo: React.FC<Props> = ({ description, lang = "no", title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -28,7 +33,7 @@ const SEO = ({ description, lang, meta, title }) => {
     `
   );
 
-  const metaDescription = description || site.siteMetadata.description;
+  const metaDescription = description ?? site.siteMetadata.description;
   const image = `${site.siteMetadata.siteUrl}/icons/icon-96x96.png`;
 
   return (
@@ -39,10 +44,9 @@ const SEO = ({ description, lang, meta, title }) => {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
-        { itemprop: "name", content: title || site.siteMetadata.title },
-        { itemprop: "description", content: metaDescription },
-        { itemprop: "image", content: image },
+        { name: "name", content: title || site.siteMetadata.title },
         { name: `description`, content: metaDescription },
+        { name: "image", content: image },
 
         { name: `twitter:card`, content: `summary` },
         { name: "twitter:site", content: `Lesesalen` },
@@ -62,17 +66,4 @@ const SEO = ({ description, lang, meta, title }) => {
   );
 };
 
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-};
-
-SEO.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
-};
-
-export default SEO;
+export default Seo;

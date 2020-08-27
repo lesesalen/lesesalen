@@ -1,19 +1,21 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import TableOfContents from "../components/TableOfContents";
+import TableOfContents, { Item } from "../components/TableOfContents";
 import { device } from "../utils/devices";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import styled from "styled-components";
 
 // import Bio from "../components/bio"
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
 import { rhythm, scale } from "../utils/typography";
+import { Node } from "../utils/types";
+import { useSiteMetadata } from "../queries/useSiteMetadata";
 
 const Toc = styled.ul`
   background-color: white;
   z-index: 5;
-  @media ${device.mobileS} {
+  @media screen and ${device.mobileS} {
     position: sticky;
     margin: 0 auto;
     top: 64px;
@@ -21,7 +23,7 @@ const Toc = styled.ul`
     display: flex;
     border-bottom: 1px solid black;
   }
-  @media ${device.laptop} {
+  @media screen and ${device.laptop} {
     position: fixed;
     left: calc(50% + 360px);
     top: 64px;
@@ -49,15 +51,38 @@ const InnerScroll = styled.div`
   scrollbar-width: thin;
 `;
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
+interface Props {
+  data: {
+    mdx: {
+      id: number;
+      excerpt: string;
+      body: string;
+      tableOfContents: {
+        items: Item[];
+      };
+      frontmatter: {
+        title: string;
+        date: string;
+        description: string;
+      };
+    };
+  };
+  location: Record<string, string>;
+  pageContext: {
+    previous?: Node;
+    next?: Node;
+  };
+}
+
+const BlogPostTemplate: React.FC<Props> = ({ data, pageContext, location }) => {
   const post = data.mdx;
-  const siteTitle = data.site.siteMetadata.title;
+  const siteTitle = useSiteMetadata().title;
   const { previous, next } = pageContext;
   const tocData = data.mdx;
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
@@ -74,7 +99,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <h1
             style={{
               marginTop: rhythm(1),
-              marginBottom: 0
+              marginBottom: 0,
             }}
           >
             {post.frontmatter.title}
@@ -83,7 +108,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             style={{
               ...scale(-1 / 5),
               display: `block`,
-              marginBottom: rhythm(1)
+              marginBottom: rhythm(1),
             }}
           >
             {post.frontmatter.date}
@@ -92,7 +117,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
-            marginBottom: rhythm(1)
+            marginBottom: rhythm(1),
           }}
         />
         <footer>
@@ -107,7 +132,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             flexWrap: `wrap`,
             justifyContent: `space-between`,
             listStyle: `none`,
-            padding: 0
+            padding: 0,
           }}
         >
           <li>
@@ -134,11 +159,6 @@ export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)

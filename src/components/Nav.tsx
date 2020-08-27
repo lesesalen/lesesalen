@@ -9,7 +9,7 @@ const StyledNav = styled.div`
   position: -webkit-sticky;
   position: sticky;
   justify-content: space-evenly;
-  top: 0px;
+  top: 0;
   width: 100%;
   background-color: white;
   z-index: 10;

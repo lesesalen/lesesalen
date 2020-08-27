@@ -36,8 +36,23 @@ const tagCss = css`
   color: #fff;
 `;
 
-const StyledCard = styled.div`
-    width: ${(props) => (props.big ? "90%px" : "70%px")};
+interface Props {
+  delay?: number;
+  big?: boolean;
+  noMargin?: boolean;
+  animated?: boolean;
+  primary?: boolean;
+  important?: boolean;
+  news?: boolean;
+  other?: boolean;
+  notes?: boolean;
+  tags?: boolean;
+}
+
+type StyledProps = Omit<Props, "delay">;
+
+const StyledCard = styled.div<StyledProps>`
+    width: ${(props) => (props.big ? "90%" : "70%")};
     border-radius: 8px;
     padding: 15px;
     opacity: 0;
@@ -54,51 +69,33 @@ const StyledCard = styled.div`
     ${(props) => props.tags && tagCss}
 `;
 
-class Card extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      animated: false,
-    };
-  }
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState(() => {
-        return { animated: true };
-      });
-    }, this.props.delay);
-  }
-
-  render() {
-    const {
-      delay = 0,
-      noAnimation,
-      primary,
-      important,
-      news,
-      other,
-      notes,
-      noMargin,
-      big,
-      ...props
-    } = this.props;
-    return (
-      <StyledCard
-        animated={this.state.animated}
-        delay={delay}
-        primary={primary}
-        important={important}
-        news={news}
-        other={other}
-        notes={notes}
-        noAnimation={noAnimation}
-        big={big}
-        noMargin={noMargin}
-        {...props}
-      />
-    );
-  }
-}
+const Card: React.FC<Props> = ({
+  animated = true,
+  primary,
+  important,
+  news,
+  other,
+  notes,
+  noMargin,
+  big,
+  tags,
+  children,
+}) => {
+  return (
+    <StyledCard
+      animated={animated}
+      primary={primary}
+      important={important}
+      news={news}
+      other={other}
+      notes={notes}
+      big={big}
+      noMargin={noMargin}
+      tags={tags}
+    >
+      {children}
+    </StyledCard>
+  );
+};
 
 export default Card;

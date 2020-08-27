@@ -1,15 +1,21 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, withPrefix } from "gatsby";
 
 import { rhythm } from "../utils/typography";
-import Nav from "./nav";
-import StyledHeader from "./header";
+import Nav from "./Nav";
+import StyledHeader from "./Header";
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`;
-  const notesPath = `${__PATH_PREFIX__}/notes/`;
-  const infoPath = `${__PATH_PREFIX__}/info/`;
-  const otherPath = `${__PATH_PREFIX__}/other/`;
+interface Props {
+  location: Record<string, string>;
+  title: string;
+  children: React.ReactNode;
+}
+
+const Layout: React.FC<Props> = ({ location, title, children }) => {
+  const rootPath = withPrefix("/");
+  const notesPath = withPrefix("/notes/");
+  const infoPath = withPrefix("/info/");
+  const otherPath = withPrefix("/other/");
   let header;
 
   if (
@@ -24,13 +30,13 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           fontFamily: `Roboto, sans-serif`,
-          marginTop: 0
+          marginTop: 0,
         }}
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`
+            color: `inherit`,
           }}
           to={`/`}
         >
@@ -45,7 +51,7 @@ const Layout = ({ location, title, children }) => {
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
+        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
       <header>{header}</header>
