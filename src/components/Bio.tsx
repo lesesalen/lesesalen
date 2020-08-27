@@ -10,8 +10,9 @@ import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 
 import { rhythm } from "../utils/typography";
+import { useSiteMetadata } from "../queries/useSiteMetadata";
 
-const Bio = () => {
+const Bio: React.FC = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
@@ -21,18 +22,10 @@ const Bio = () => {
           }
         }
       }
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-          }
-        }
-      }
     }
   `);
+  const author = useSiteMetadata().author;
 
-  const { author, social } = data.site.siteMetadata;
   return (
     <div
       style={{

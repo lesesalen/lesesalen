@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const StyledDetails = styled.details`
   padding: 0.5em 0.5em 0;
-  -focus: none;
   outline: none;
   list-style-type: normal;
 `;
@@ -15,12 +14,17 @@ const StyledSummary = styled.summary`
   position: sticky;
   top: 0;
   background-color: white;
-  -focus: none;
   outline: none;
 `;
 
-function getIds(items) {
-  return items.reduce((acc, item) => {
+export interface Item {
+  url: string;
+  title: string;
+  items?: Item[];
+}
+
+function getIds(items: Item[]): string[] {
+  return items.reduce<string[]>((acc, item) => {
     if (item.url) {
       // url has a # as first character, remove it to get the raw CSS-id
       acc.push(item.url.slice(1));
@@ -32,12 +36,12 @@ function getIds(items) {
   }, []);
 }
 
-function useActiveId(itemIds) {
+function useActiveId(itemIds: string[]) {
   const [activeId, setActiveId] = useState(`test`);
   useEffect(() => {
     const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
+      (entries) => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setActiveId(entry.target.id);
           }
@@ -45,35 +49,37 @@ function useActiveId(itemIds) {
       },
       { rootMargin: `0% 0% -80% 0%` }
     );
-    itemIds.forEach(id => {
-      observer.observe(document.getElementById(id));
+
+    itemIds.forEach((id) => {
+      observer.observe(document.getElementById(id)!!);
     });
+
     return () => {
-      itemIds.forEach(id => {
-        observer.unobserve(document.getElementById(id));
+      itemIds.forEach((id) => {
+        observer.unobserve(document.getElementById(id)!!);
       });
     };
   }, [itemIds]);
   return activeId;
 }
 
-function renderItems(items, activeId) {
+function renderItems(items: Item[], activeId: string) {
   return (
     <ul
       style={{
         listStyle: "none",
         marginLeft: "6px",
         paddingLeft: "6px",
-        borderLeft: "1px solid lightgray"
+        borderLeft: "1px solid lightgray",
       }}
     >
-      {items.map(item => {
+      {items.map((item) => {
         return (
           <li key={item.url}>
             <a
               href={item.url}
               style={{
-                color: activeId === item.url.slice(1) ? "red" : "black"
+                color: activeId === item.url.slice(1) ? "red" : "black",
               }}
             >
               {item.title}
@@ -86,13 +92,17 @@ function renderItems(items, activeId) {
   );
 }
 
-function TableOfContents(props) {
-  const idList = getIds(props.items);
+interface Props {
+  items: Item[];
+}
+
+function TableOfContents({ items }: Props) {
+  const idList = getIds(items);
   const activeId = useActiveId(idList);
   return (
-    <StyledDetails closed>
+    <StyledDetails>
       <StyledSummary>Table of Contents</StyledSummary>
-      {renderItems(props.items, activeId)}
+      {renderItems(items, activeId)}
     </StyledDetails>
   );
 }

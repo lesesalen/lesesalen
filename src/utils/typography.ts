@@ -1,20 +1,20 @@
-import Typography from "typography";
+import Typography, { BaseLine } from "typography";
 import OceanBeach from "typography-theme-ocean-beach";
 
 OceanBeach.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
-      boxShadow: `none`
+      boxShadow: `none`,
     },
     a: {
       color: "#000000",
       textShadow: "none",
       textDecoration: "underline black",
-      backgroundImage: "none"
+      backgroundImage: "none",
     },
     blockQuote: {
-      borderLeft: "0.5925rem solid red"
-    }
+      borderLeft: "0.5925rem solid red",
+    },
   };
 };
 
@@ -26,5 +26,5 @@ if (process.env.NODE_ENV !== `production`) {
 }
 
 export default typography;
-export const rhythm = typography.rhythm;
-export const scale = typography.scale;
+export const rhythm: (value: number) => string = typography.rhythm;
+export const scale: (value: number) => BaseLine = typography.scale;
