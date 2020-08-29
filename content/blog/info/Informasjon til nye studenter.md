@@ -88,7 +88,7 @@ Begge fagforeningene har studentlag ved UiB og HVL som arrangerer faglige kræsj
 |[Pizzabakeren](https://www.pizzabakeren.no/studentrabatt)|159kr for stor pizza |
 |Øl|Det er ofte studentrabatt, bare å spørre|
 
-<br>  
+<br/>  
 
 **Har du noen flere? Er et tilbud utgått? Lag en pull request**
 
@@ -134,7 +134,7 @@ Sammen er billigst, og koster kun 1200kr per semester. Det er da 200kr/mnd.
 Sammen har [dårlige åpningstider](https://www.sammen.no/no/bergen/trening/apningstider), spesielt i helgene og rundt eksamensperiodene.
 Det er ofte stappet i rushtider (12.00 og 16.00), og i koronatidene kan det bli kø for å komme inn.  
   
-<br> <br>
+<br/> <br/>
 Alle andre sentere er ordinære treningssentere, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.
 
 #### **[SATS](https://www.sats.no/bli-medlem/student/)**
@@ -335,11 +335,11 @@ Git er et verktøy for versjonskontroll og kodedeling. Dette betyr at man blant 
 
 Det finnes flere tjenester som tilbyr Git-versjonskontroll. Den mest kjente er GitHub. Det finnes fag ved instituttet hvor man også bruker GitLab til å administrere innleveringer. En del liker også å bruke Bitbucket. Hvordan man derimot bruker selve Git-teknologien er likt for alle tilbyderne.
 >**Git**
-Gratis program laget av [Linus Torvalds](https://www.youtube.com/watch?v=4XpnKHJAok8)  <br>
+Gratis program laget av [Linus Torvalds](https://www.youtube.com/watch?v=4XpnKHJAok8)  <br/>
 **Github**  
-Privat selskap som drifter git servere for deg. Ble kjøpt of av Microsoft.  <br>
+Privat selskap som drifter git servere for deg. Ble kjøpt of av Microsoft.  <br/>
 **Gitlab**
-Åpen versjon av Github, som lar deg _hoste din egen versjon av Github_. UiB bruker dette i fag som INF101.<br>
+Åpen versjon av Github, som lar deg _hoste din egen versjon av Github_. UiB bruker dette i fag som INF101.<br/>
 **BitBucket**
 Alternativ til Github, hovedsakelig for bedrifter. Har bra integrasjon med Jira, et populært prosjektledelsesverktøy.  
   
