@@ -64,7 +64,7 @@ Fagforeninger som [Nito](https://www.nito.no/) og [Tekna](https://www.tekna.no/)
 Hos Nito betaler man en engangsavgift på 350kr, og medlemskap var ut studietiden.
 Hos Tekna betaler man 150kr i semsteret for medlemskap.
 Tilbudet er omtrent likt hos begge to.  
-_Om du melder deg inn ved en Nito/Tekna stand, får man ofte med en drikkeflaske. De er ofte i RFB ved studiestart_
+> _Om du melder deg inn ved en Nito/Tekna stand, får man ofte med en drikkeflaske eller annet merch. Du finner dem ofte på RFB ved i starten av semesteret_
 
 Du får veldig gode forsikringsavtaler gjennom fagforeningene. Om du betaler for forsikring, kan du spare penger på å melde deg inn i fagforening.
 - [Tekna Student forsikringsavtaler](https://www.tekna.no/medlemsfordeler/studentmedlemskap/forsikring-for-studenter/)
@@ -83,7 +83,7 @@ Begge fagforeningene har studentlag ved UiB og HVL som arrangerer faglige kræsj
 |[Lenovo student](https://www.lenovo.com/no/no/studentrabatt/)| _Opp til 20%_|
 |[Dell student](https://www.dell.com/no-no/shop/dell-advantage/cp/students)| 10% på XPS, 5% på Inspiron|
 |[NextGenTel Fiber](https://www.nextgentel.no/privat/student)|_Opp til 600kr avslag mot binningstid_|  
-|[Skyss ungdomsbillett](https://www.skyss.no/Billettar-og-prisar/billettar-og-prisar2/30-dagars-ungdomsbillett/)|Billigere enn studentbillettom du er under 21|
+|[Skyss ungdomsbillett](https://www.skyss.no/Billettar-og-prisar/billettar-og-prisar2/30-dagars-ungdomsbillett/)|Billigere enn studentbillett om du er under 21|
 |Vy|Samme prisen, men du må ha studentbevis|
 |[Pizzabakeren](https://www.pizzabakeren.no/studentrabatt)|159kr for stor pizza |
 |Øl|Det er ofte studentrabatt, bare å spørre|
@@ -119,9 +119,9 @@ Dette nettet logger du på med studentkontoen din; brukernavn@uib.no og passord.
 > Om du har problemer med Eduroam på f.eks Linux, kan du sjekke [denne siden](https://it.uib.no/en/Eduroam)  
 > Eduroam finnes også på alle de største flyplassene i Norge. 
 
-Om du kobler deg til Eduroam på telefonen, kan den koble seg til når du er på bussen/bybanen, som fort blir litt irriterende
+Om du kobler deg til Eduroam på telefonen, kan den koble seg til når du er på bussen/bybanen, som fort kan bli litt irriterende.
 
-Om du har problemer med Eduroam, kan du koble deg på UiB Gjest. Her kan du logge deg inn med telefonnummer eller bruke uib brukernavnet ditt.  `brukernavn:passord`
+Om du har problemer med Eduroam, kan du koble deg på UiB Gjest. Her kan du logge deg inn med telefonnummer og engangskode eller bruke uib brukernavnet ditt.  `brukernavn:passord`
 
 ### Helse
 
@@ -134,8 +134,10 @@ Sammen er billigst, og koster kun 1200kr per semester. Det er da 200kr/mnd.
 Sammen har [dårlige åpningstider](https://www.sammen.no/no/bergen/trening/apningstider), spesielt i helgene og rundt eksamensperiodene.
 Det er ofte stappet i rushtider (12.00 og 16.00), og i koronatidene kan det bli kø for å komme inn.  
   
-<br/> <br/>
-Alle andre sentere er ordinære treningssentere, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.
+<br/>  
+
+> Alle andre sentere er ordinære treningssentere, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.  
+
 
 #### **[SATS](https://www.sats.no/bli-medlem/student/)**
 SATS er størst i Norge, og tilbyr mange sentere i Bergen.  
@@ -193,9 +195,10 @@ Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilb
 | Kont/Konte            | Nytt eksamensforsøk, normalt tidlig eksamen for studenter som stryker |
 | ii                    | Insitutt for informatikk                                              |
 | Matnat                | Matematisk-Naturvitenskapelig fakultet                                |
-| FU                    | Kort for "Fagutvalget", som er echos tidligere navn                   |
+| echo                    | echo er Fagutvalget for informatikkstudenter. [Les mer](#echo)                   |
+| FU eller FUii                 | Kort for "Fagutvalget", echos tidligere navn                   |
 | Høyden                | Hele området rundt UiB sitt campus i Bergen sentrum                   |
-| RFB                   | Realfagsbygget. Se "matnat"                                           |
+| RFB                   | Realfagsbygget. Hovedbygget til MatNat.                                           |
 | Høytek                | Høyteknologisenteret. Thormøhlensgt 55                                |
 | HiB                   | Høyteknolgisenteret i Bergen, ikke Høyskolen i Bergen (Nå kalt HVL)   |
 | VilVite               | Undervisningslokaler i nabobygget (som er Vitensenteret)              |
@@ -212,8 +215,8 @@ Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilb
 | Git                         | Versjonskontroll-teknologi. Bransjestandard.                                           |
 | Repo                        | Kort for repository. Et sted der man lagrer kode.                                      |
 | Commit                      | En endring av filer med versjonskontroll.                                              |
-| Push                        | Sender endringene til et git reposetory.                                               |
-| Fetch                       | Hente endringer fra et git reposetory.                                                 |
+| Push                        | Sender endringene til et git repository.                                               |
+| Fetch                       | Hente endringer fra et git repository.                                                 |
 | Fork                        | En kopi eller modifisert versjon av et prosjekt.                                       |
 | Pullrequest                 | Forespørsel om å endre på hovedversjonen av et repo                                    |
 | IDE                         | "Integrated Development Environment". Program man bruker til å programmere             |
@@ -253,10 +256,12 @@ Du kan også ta kontakt med hver enkelt studieveileder direkte:
 
 | Studieveileder                            | Område                                                |
 | ----------------------------------------- | ----------------------------------------------------- |
-| Øystein K. Bondevik (vikar ut 2020)        | Bachelorprogram, utveksling, innpassing               |
+| Øystein K. Bondevik (vikar ut 2020) studieveileder@ii.uib.no        | Bachelorprogram, utveksling, innpassing               |
 | Pål Magnus Gunnestad pal.gunnestad@uib.no | Masterprogram, forskerutdanning (PhD)                 |
 | Mo Yan Yuen mo.yan.yuen@uib.no            | Eksamen, timeplan, emneevaluering                     |
 | liljan Myhr liljan.myhr@uib.no            | Gruppelederansettelser, klager på karakterfastsetting |
+> Denne informasjonen kan være utdatert, om du trenger direkte kontakt med en veileder, se [ii.uib.no](https://www.uib.no/ii/122768/studieveiledning), men studieveileder@ii.uib.no vil alltid fungere.
+
 
 Det er tryggest å booke time med dem på epost i forkant, men om du har et raskt spørsmål eller to, eller noe som haster, er de som regel å nå på kontoret. Du kan generelt sett spørre hvem som helst om hva som helst, og om de ikke kan svare på spørsmålet ditt, kan de alltid peke deg i retning av noen som kan!
 
