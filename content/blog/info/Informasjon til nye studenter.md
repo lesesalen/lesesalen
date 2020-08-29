@@ -15,7 +15,7 @@ Som ny student er det mange ting du må få oversikt over, og overgangen fra vid
 ----
 ## TL;DR
 
-- Matnat har en [sjekkliste for studiestart](https://www.uib.no/student/127911/sjekkliste-i-studiestarten).
+- MatNat har en [sjekkliste for studiestart](https://www.uib.no/student/127911/sjekkliste-i-studiestarten).
 - Kontaktinfo til studieveiledere finner du [her](#studieveiledere).
 - [Bedriftspresentasjoner](#bedriftspresentasjoner) kommer på [echo.uib.no](https://echo.uib.no/) og [echos offisielle Facebookgruppe](#Facebookgrupper) ca kl. 12, en uke før bedriftspresentasjonens dato. Vanligvis Torsdag.
 - echo har en egen kalender: [Google](https://calendar.google.com/calendar/embed?src=t3rc186t378bvsv4mjpie6l1ic%40group.calendar.google.com&ctz=Europe%2FOslo), eller som [iCal](https://calendar.google.com/calendar/ical/t3rc186t378bvsv4mjpie6l1ic%40group.calendar.google.com/public/basic.ics)
@@ -47,7 +47,7 @@ Som ny student er det mange ting du må få oversikt over, og overgangen fra vid
 <iframe src="https://discordapp.com/widget?id=687650156262195217&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 - Facebook: 
-    - [echo sin facebook gruppe: ](https://www.facebook.com/groups/informatikk/)  
+    - [echo sin Facebook gruppe: ](https://www.facebook.com/groups/informatikk/)  
     Her kommer kunngjøringer, bedpresser etc.  
     - [echo Aktiv/Sosial: ](https://www.facebook.com/groups/1785913424994492/)  
     Her kan folk poste om de vil finne på noe sosialt, som fjelltur, brettspill, spille switch på lesesalen etc.
@@ -68,7 +68,7 @@ Tilbudet er omtrent likt hos begge to.
 
 Du får veldig gode forsikringsavtaler gjennom fagforeningene. Om du betaler for forsikring, kan du spare penger på å melde deg inn i fagforening.
 - [Tekna Student forsikringsavtaler](https://www.tekna.no/medlemsfordeler/studentmedlemskap/forsikring-for-studenter/)
-- [Nito Student orsikringsavtaler](https://www.nito.no/medlemsfordel/studentforsikring/)
+- [Nito Student forsikringsavtaler](https://www.nito.no/medlemsfordel/studentforsikring/)
 
 Begge fagforeningene har studentlag ved UiB og HVL som arrangerer faglige kræsjkurs og kurs i ting som boligkjøp og CV-skriving. I tillegg til ting som ølsmaking og turer. De har ikke alltid de samme kræsjkursene eller foredragsholderne, så det er ikke dumt å være med i begge.
 
@@ -82,7 +82,7 @@ Begge fagforeningene har studentlag ved UiB og HVL som arrangerer faglige kræsj
 |[Synstest hos Brilleland](https://www.brilleland.no/tilbud/studentrabatt/)|~~740kr~~ 550kr|
 |[Lenovo student](https://www.lenovo.com/no/no/studentrabatt/)| _Opp til 20%_|
 |[Dell student](https://www.dell.com/no-no/shop/dell-advantage/cp/students)| 10% på XPS, 5% på Inspiron|
-|[NextGenTel Fiber](https://www.nextgentel.no/privat/student)|_Opp til 600kr avslag mot binningstid_|  
+|[NextGenTel Fiber](https://www.nextgentel.no/privat/student)|_Opp til 600kr avslag mot bindingstid_|  
 |[Skyss ungdomsbillett](https://www.skyss.no/Billettar-og-prisar/billettar-og-prisar2/30-dagars-ungdomsbillett/)|Billigere enn studentbillett om du er under 21|
 |Vy|Samme prisen, men du må ha studentbevis|
 |[Pizzabakeren](https://www.pizzabakeren.no/studentrabatt)|159kr for stor pizza |
@@ -95,7 +95,7 @@ Begge fagforeningene har studentlag ved UiB og HVL som arrangerer faglige kræsj
 
 ### Første Uka
 
-Disse linkene er stappfulle av nyttig informasjon og tidsfrister: [UiBs sjekkliste for studiestart](https://www.uib.no/student/127911/sjekkliste-i-studiestarten) og [Matnat sin guide for hva som skjer rundt semesterstart](https://www.uib.no/matnat/52774/velkommen-som-ny-student#uke-33-12-nbsp-16-august-).
+Disse linkene er stappfulle av nyttig informasjon og tidsfrister: [UiBs sjekkliste for studiestart](https://www.uib.no/student/127911/sjekkliste-i-studiestarten) og [MatNat sin guide for hva som skjer rundt semesterstart](https://www.uib.no/matnat/52774/velkommen-som-ny-student#uke-33-12-nbsp-16-august-).
 
 Den første uka er det mange ting som skjer: Klassemottak og fadderuke, forelesninger, programmøte, semesterregistrering, studentkort og mye mer. Og det er mange ting som skal gjøres. I klassemottaket vil du få mye informasjon om den første tiden din ved UiB, samt bli informert om viktige tidsfrister og ting du må tenke på. Her blir du også kjent med andre studenter som går samme linje og/eller har samme fagkombinasjon som deg.
 
@@ -108,7 +108,7 @@ Den første uka er det mange ting som skjer: Klassemottak og fadderuke, forelesn
 
 **Frist for betaling er *1. September*, du mister studieretten din om du glemmer dette.**
 
-_Univesitetet/Fakultetet/Insituttet/Forelesere sier ofte at 1. forelesning er obligatorisk, men dette gjelder kun for 1. klassinger eller Masterstudenter. Det er mulig å melde seg opp i fag fram til 1. september / 1. februar, og du blir ikke kastet ut av faget om du går glipp av første forelesning._
+_Univesitetet/Fakultetet/Instituttet/Forelesere sier ofte at 1. forelesning er obligatorisk, men dette gjelder kun for 1. klassinger eller Masterstudenter. Det er mulig å melde seg opp i fag fram til 1. september / 1. februar, og du blir ikke kastet ut av faget om du går glipp av første forelesning._
 
 ### Eduroam
 
@@ -121,7 +121,7 @@ Dette nettet logger du på med studentkontoen din; brukernavn@uib.no og passord.
 
 Om du kobler deg til Eduroam på telefonen, kan den koble seg til når du er på bussen/bybanen, som fort kan bli litt irriterende.
 
-Om du har problemer med Eduroam, kan du koble deg på UiB Gjest. Her kan du logge deg inn med telefonnummer og engangskode eller bruke uib brukernavnet ditt.  `brukernavn:passord`
+Om du har problemer med Eduroam, kan du koble deg på UiB Gjest. Her kan du logge deg inn med telefonnummer og engangskode eller bruke UiB brukernavnet ditt.  `brukernavn:passord`
 
 ### Helse
 
@@ -136,14 +136,14 @@ Det er ofte stappet i rushtider (12.00 og 16.00), og i koronatidene kan det bli 
   
 <br/>  
 
-> Alle andre sentere er ordinære treningssentere, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.  
+> Alle andre er ordinære treningssentre, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.  
 
 
 #### **[SATS](https://www.sats.no/bli-medlem/student/)**
 SATS er størst i Norge, og tilbyr mange sentere i Bergen.  
 Bor du nærme Lagunen Storsenter eller Horisont Åsane, så har de store sentere på toppen av senteret.
 SATS har ganske like åpningstider som Sammen, med unntak av [Danmarksplass](https://www.sats.no/treningssentre/bergen/sats-danmarksplass/), som er ubemannet men åpent 05.00-23.00 hele uka.  
-Studentpris er 20% avslag, så grunnpakka er ca. 350kr/mnd med 12 måneder bindingstid.
+Studentpris er 20% avslag, så grunnpakke er ca. 350kr/mnd med 12 måneder bindingstid.
 De tilbyr masse gruppetrening, som koster ekstra, og tredemøllene blir plutselig opptatt på grunn av en løpetime.
 
 #### **[iTrain](https://www.itrain.no/bli-medlem-naa)**
@@ -156,7 +156,7 @@ Evo er et ganske nytt senter i Bergen. De har ubemannet åpningstid fra 05.00-24
 De har ikke studentpriser, og koster 379kr/mnd.
 
 #### **[nr1Fitness](https://www.nr1fitness.no/studentpakken/)**
-De har 10 sentere i Bergen. Jeg tror at de tidligere var døgnåpene, men er nå åpne fra 05.00-24.00.   
+De har 10 sentere i Bergen. Jeg tror at de tidligere var døgnåpne, men er nå åpne fra 05.00-24.00.   
 Studenter kan trene på alle sentere i Bergen for 275kr/mnd uten binding.
 
 #### **[Bergen Tennis Arena](https://bergentennisarena.no/?page_id=2612)**
@@ -180,7 +180,7 @@ Det finnes en rekke andre tilbud i Bergen, bla.
 
 ### Sammen
 
-Sammen (tidligere kalt SiB) er Studentsamskipnaden på Vestlandet som har en rekke tilbud for deg som student. Dette inkluderer studentboliger, trening, mat, helse og råd og karrière. Det anbefales at du leser deg opp på alle tilbudene som er tilgjengelige for deg som student slik at du vet hva du kan benytte deg av i din studieperiode.
+Sammen (tidligere kalt SiB) er Studentsamskipnaden på Vestlandet som har en rekke tilbud for deg som student. Dette inkluderer studentboliger, trening, mat, helse og råd og karriere. Det anbefales at du leser deg opp på alle tilbudene som er tilgjengelige for deg som student slik at du vet hva du kan benytte deg av i din studieperiode.
 
 Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilbud inkluderer fastlege, psykolog, tannlege, rådgivning med mer. Se alle tilbudene [her](https://www.sammen.no/no/bergen/helse).
 
@@ -193,17 +193,17 @@ Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilb
 | SEB                   | Forkortelse for Safe Exam Browser                                     |
 | Sebra                 | Sebra.uib.no: Her oppretter du studentkonto og endrer passord         |
 | Kont/Konte            | Nytt eksamensforsøk, normalt tidlig eksamen for studenter som stryker |
-| ii                    | Insitutt for informatikk                                              |
+| ii                    | Institutt for informatikk                                              |
 | Matnat                | Matematisk-Naturvitenskapelig fakultet                                |
 | echo                    | echo er Fagutvalget for informatikkstudenter. [Les mer](#echo)                   |
 | FU eller FUii                 | Kort for "Fagutvalget", echos tidligere navn                   |
 | Høyden                | Hele området rundt UiB sitt campus i Bergen sentrum                   |
 | RFB                   | Realfagsbygget. Hovedbygget til MatNat.                                           |
 | Høytek                | Høyteknologisenteret. Thormøhlensgt 55                                |
-| HiB                   | Høyteknolgisenteret i Bergen, ikke Høyskolen i Bergen (Nå kalt HVL)   |
+| HiB                   | Høyteknologisenteret i Bergen, ikke Høyskolen i Bergen (Nå kalt HVL)   |
 | VilVite               | Undervisningslokaler i nabobygget (som er Vitensenteret)              |
 | Allegaten 66/ A66     | Undervisningslokale ved Matnat                                        |
-| Administrasjonsbygget | Eksamenslokale i Solheimsgaten på Danmarksplass                       |
+| Administrasjonsbygget | Eksamenslokalet i Solheimsgaten på Danmarksplass                       |
 | Høyskolen/HVL         | Høyskolen på Vestlandet. Ligger ved Kronstad bybanestopp.             |
 | Oblig                 | Obligatorisk oppgave/innlevering                                      |
 
@@ -323,7 +323,7 @@ Codeacademy.com har kurs for mange programmeringsspråk (Feks. Python). Ikke all
 
 #### IDEs og Editors
 
-Når man programmerer har man gjerne to typer verktøy. Enten en IDE eller en editor. En editor er et enkelt redigeringsprogram som gir deg det du trenger, syntax highlighting og auto completion. En IDE er storebroren til disse ; her får man gjerne vertøy som debuggere, avansert refaktorering og kompilatorer innebygd. I INF100 bruker du kanskje Jupiter til alle oppgaver og innleveringer, men til senere vil du innstallere en egen IDE.
+Når man programmerer har man gjerne to typer verktøy. Enten en IDE eller en editor. En editor er et enkelt redigeringsprogram som gir deg det du trenger, syntax highlighting og auto completion. En IDE er storebroren til disse ; her får man gjerne verktøy som debuggere, avansert refaktorering og kompilatorer innebygd. I INF100 bruker du kanskje Jupiter til alle oppgaver og innleveringer, men til senere vil du innstallere en egen IDE.
 
 **IntelliJ**  
 
@@ -342,11 +342,11 @@ Det finnes flere tjenester som tilbyr Git-versjonskontroll. Den mest kjente er G
 >**Git**
 Gratis program laget av [Linus Torvalds](https://www.youtube.com/watch?v=4XpnKHJAok8)  <br/>
 **Github**  
-Privat selskap som drifter git servere for deg. Ble kjøpt of av Microsoft.  <br/>
+Privat selskap som drifter git servere for deg. Ble kjøpt opp av Microsoft.  <br/>
 **Gitlab**
-Åpen versjon av Github, som lar deg _hoste din egen versjon av Github_. UiB bruker dette i fag som INF101.<br/>
+Åpen versjon av Github, lar deg _hoste din egen versjon av Github_. UiB bruker dette i fag som INF101.<br/>
 **BitBucket**
-Alternativ til Github, hovedsakelig for bedrifter. Har bra integrasjon med Jira, et populært prosjektledelsesverktøy.  
+Alternativ til Github, hovedsakelig rettet mot bedrifter. Har bra integrasjon med Jira, et populært prosjektledelsesverktøy.  
   
 
 På GitHub skiller man gjerne mellom offentlige og private repositories. Et offentlig repository kan hvem som helst finne. Det er en fantastisk måte å vise arbeidet sitt frem for andre studenter og potensielle arbeidsgivere. For mindre prosjekter og innleveringer, er private repositories gode å ha. Disse er ikke synlige for allmennheten, og kun tilgjengelige for deg. Uansett om man velger private eller offentlige repositories, kan man legge til og fjerne samarbeidspartnere etter ønske. Private repositories er gratis på GitHub, GitLab og Bitbucket men med noen restriksjoner dersom man ikke har et Pro-abonnement.
@@ -382,6 +382,10 @@ Hver torsdag fra 13-15 steker de vafler, så de kan gjerne kjennes igjen på luk
 > Protip: Om noen steker vafler på lesesalen, blir de sannsynligvis lønnet av universitetet for å svare på spørsmål. Det betyr at ingen spørsmål er for dumme!
 
 ## Forelesninger, innleveringer og eksamen
+
+### Timeplan
+Å få oversikt over alle forelesninger og gruppetimer kan bli vanskelig, og i kalenderen til Mitt UiB blir det fort rotete.  
+Går du inn [på denne siden](https://tp.uio.no/uib/timeplan/emner.php), kan du få opp timeplanen til induviduelle fag. 
 
 ### Forelesninger
 
@@ -425,16 +429,22 @@ MAT111 har tidlig eksamen for studenter med [**gyldig fravær**](https://www.uib
 
 ## Lesesaler og grupperom
 
-> Matnat har ganske få grupperom og de er ofte opptatt.
-Du kan booke rom [her.](https://tp.uib.no/)
+
+> * Matnat har ganske få grupperom og de er ofte opptatt.
+> * Du kan booke rom, eller se om et rom er ledig [her.](https://tp.uib.no/) 
+> * Om nettsiden ikke lar deg booke rom, kan man også skrive opp navnet ditt på lappen som henger på døra. 
+> * Finn grupperommet du har booket med [MazeMap](https://use.mazemap.com/).
+> * Mange grupperom har en stor skjerm, som man kan bruke om du vil følge med på en digital forelesning eller sammarbeide med medstudenter. 
+> * Inviter med deg medstudenter om du tenker å bruke grupperom, for det er ikke så mange av dem.
+> * Grupperommene låses på kvelden og i helgene. Pass på at du aldri går ut av rommet uten nøkkelkort. 
 
 Matnat har dog et stort bibliotek og et fantastisk læringssenter, i tillegg til en større lesesal.
 
 ### Institutt for informatikk
 
-Informatikklesesalen i datablokka, også kjent som "lesesalen" blant informatikkstudenter, er en lesesal med store gruppebord. Her er det kjøkken med (gratis) kaffe, kjøleskap, brødrister og mikro. Denne er åpen for alle informatikkstudenter og er "vårt eget territorium". Denne administreres i sin helhet av echo, og er døgnåpen. Dette er ikke en stille lesesal i den forstand at det er lov å prate sammen og samarbeide. Her er terskelen også veldig lav for å få hjelp. Husk å bruke innestemme. Det er også lov å bare komme for å henge og drikke kaffe. Informatikkfestene pleier også å arrangeres her. Kjøkkenet kan for mange være skummelt da det ofte sitter eldre studenter i sofaen. De aller færreste biter, og om du sier hei først, kommer de garantert til å si hei tilbake!
+Informatikklesesalen i datablokka, også kjent som "lesesalen" blant informatikkstudenter, er en lesesal med store gruppebord. Her er det kjøkken med (gratis) kaffe, kjøleskap, vannkoker, brødrister, pizzaovn og mikrobølgeovn. Denne er åpen for alle informatikkstudenter og er "vårt eget territorium". Denne administreres i sin helhet av echo, og er døgnåpen. Dette er ikke en stille lesesal i den forstand at det er lov å prate sammen og samarbeide. Her er terskelen også veldig lav for å få hjelp. Husk å bruke innestemme. Det er også lov å bare komme for å henge og drikke kaffe, _men vaskepersonellet kaster kaffekoppene om du setter dem fra deg andre steder i bygget_. Informatikkfestene pleier også å arrangeres her. Kjøkkenet kan for mange være skummelt da det ofte sitter eldre studenter i sofaen. De aller færreste biter, og om du sier hei først, kommer de garantert til å si hei tilbake!
 
-I 2. etg. om du holder hardt venstre etter trappen, er det også et mindre stillerom. Dette er en stille leseslal med skillevegger mellom bordene. Denne er åpen mellom 8 og 17 på hverdager. Det finnes også et par kollokvieøyer og en håndfull grupperom i andre etasje + ellers i bygget. Når disse ikke brukes til undervisning kan de bookes her: [https://www.uib.no/foransatte/90989/rombestilling](https://www.uib.no/foransatte/90989/rombestilling)
+I 2. etg. om du holder hardt venstre etter trappen, er det også et mindre stillerom. Dette er en stille leseslal med skillevegger mellom bordene. Denne er åpen mellom 8 og 17 på hverdager. Det finnes også et par kollokvieøyer og en håndfull grupperom i andre etasje + ellers i bygget. Når disse ikke brukes til undervisning [kan de bookes her.](https://tp.uib.no/)
 
 ## Valgfag
 
@@ -506,9 +516,9 @@ Ved ii er echo både fagutvalg og linjeforening. echo består av 12 demokratisk 
 - **Makerspacet** håndterer faglige arrangementer samt gir studentene muligheter til å prøve seg på praktiske prosjekter. Via dem har man tilgang til blant annet 3D-printing, lodding osv.
 - **Bryggelaget ii** er et samarbeidsprosjekt mellom echo og ii. De brygger øl i 3. etasje.
 
-echo har et overordnet ansvar for studentsaker som angår det faglige ved instituttet. echo jobber utelukkende med å gjøre studiehverdagen for informatikere bedre og er studentenes stemme opp mot instituttet, fakultetet og arbeidsmarkedet. echo har primært to kommunkasjonskanaler, facebook-siden ["echo – Fagutvalget for informatikk, UiB"](https://www.facebook.com/groups/informatikk/) og nettsiden [https://echo.uib.no/](https://echo.uib.no/). Tommelfingerregelen er at alt publiseres på facebook, mens det hender og at det publiseres på nettsiden. Med det meste tenker jeg på ting som fester, workshops og nyheter. Bedriftspresentasjoner kommer på nettsiden først, så det er lurt å følge med på begge. Arrangementer i regi av echo er også å finne i [echos kalender](https://calendar.google.com/calendar/embed?src=t3rc186t378bvsv4mjpie6l1ic%40group.calendar.google.com&ctz=Europe%2FOslo)
+echo har et overordnet ansvar for studentsaker som angår det faglige ved instituttet. echo jobber utelukkende med å gjøre studiehverdagen for informatikere bedre og er studentenes stemme opp mot instituttet, fakultetet og arbeidsmarkedet. echo har primært to kommunikasjonskanaler, facebooksiden ["echo – Fagutvalget for informatikk, UiB"](https://www.facebook.com/groups/informatikk/) og nettsiden [https://echo.uib.no/](https://echo.uib.no/). Tommelfingerregelen er at alt publiseres på Facebook, mens det hender og at det publiseres på nettsiden. Med det meste tenker jeg på ting som fester, workshops og nyheter. Bedriftspresentasjoner kommer på nettsiden først, så det er lurt å følge med på begge. Arrangementer i regi av echo er også å finne i [echos kalender](https://calendar.google.com/calendar/embed?src=t3rc186t378bvsv4mjpie6l1ic%40group.calendar.google.com&ctz=Europe%2FOslo)
 
-Har du noe du vil ta opp? Den beste måten å få sine innspill hørt hos fagutvalget, er å bruke dette [tilbakemeldingsskjemaet](https://docs.google.com/forms/d/e/1FAIpQLSe9wayHe_uX3LZyzG0aWa5sO_LcnI_y_UVPUi0JzixYfrtLhA/viewform).
+Har du noe du vil ta opp? Den beste måten å få sine innspill hørt hos fagutvalget, er å bruke dette [tilbakemeldingsskemaet](https://docs.google.com/forms/d/e/1FAIpQLSe9wayHe_uX3LZyzG0aWa5sO_LcnI_y_UVPUi0JzixYfrtLhA/viewform).
 
 Om du ønsker å ta opp uønskede hendelser, burde du derimot bruke UiBs ["Si ifra"-system](https://www.uib.no/student/111870/si-fra-om-studentmilj%C3%B8et). Da blir sakene håndtert av studentombudet. Send det gjerne også i echos tilbakemeldingsskjema og vis til at du også har brukt "si ifra". Det er større sannsynlighet for at hendelsen tas på alvor dersom man informerer de ulike instansene om at hendelsen er rapportert inn til flere.
 
@@ -529,7 +539,7 @@ echo har flere Facebookgrupper og sider du kan være med i. Her kommer litt info
 - [**echo Makerspace**](https://www.facebook.com/groups/525846757912285/) echo har et lite makerspace med 3D-printer og verktøy. Har du et hobbyprosjekt du kunne tenke deg å jobbe med, og trenger hardware? Da kan makerspacet være for deg!
 - [**Næringslivskontakt for informatikkstudenter, Bergen**](https://www.facebook.com/informatikkjobb/) På denne Facebooksiden, publiserer echos bedriftskomité stillingsutlysninger som er relevante for IT-studenter. Dette er alt fra deltidsjobber i startups til internships og stillinger for nyutdannede.
 
-**Interressegrupper og andre organisasjoner**
+**Interessegrupper og andre organisasjoner**
 - [Helt sikker](https://www.facebook.com/groups/heltsikker/)
 - [Informatikkband](https://www.facebook.com/groups/722075571587466/)
 - [echo Squash](https://www.facebook.com/groups/282025509313458/)
@@ -540,12 +550,12 @@ Bedriftskomiteen arrangerer 8-12 bedriftspresentasjoner i semesteret. Her kommer
 
 Tid/Sted: Torsdager (som regel), etter kl 16.15 på Høyteknologisenteret
 
-Påmelding: Publiseres på echos offisielle kommunikasjonskanaler (echo.uib.no og facebook) klokken 12, en uke i forkant. merk: dette gjelder uansett hvilken dag bedriftspresentasjonen er.
+Påmelding: Publiseres på echos offisielle kommunikasjonskanaler (echo.uib.no og Facebook) klokken 12, en uke i forkant. merk: dette gjelder uansett hvilken dag bedriftspresentasjoner er.
 
 Ikke alle bedriftspresentasjoner er åpne for alle årstrinn. Hvilke trinn den aktuelle bedriftspresentasjonen er åpen for vil informeres i selve posten og på skjemaet. Om du lyver om årstrinnet ditt under en bedpress, kommer du til å bli utestengt fra samtlige bedriftspresentasjoner i et skoleår.
 
 ### For den sikkerhetsinteresserte
 
-Ved ii finnes det en faggruppe som heter **Helt Sikker**. Helt Sikker er en studentorganisasjon/linjeforening som har som målsetning å tilby studenter en arena for å lære informasjonssikkerhet, og samtidig bygge et miljø for sikkerhetsinteresserte studenter. Helt Sikker arrangerer workshops, CTF-er, foredrag mm. Om dette høres spennende ut, finner du mer informasjon på [heltsikker.no](https://www.heltsikker.no/) eller på deres [facebook-side.](https://www.facebook.com/groups/heltsikker/)
+Ved ii finnes det en faggruppe som heter **Helt Sikker**. Helt Sikker er en studentorganisasjon/linjeforening som har som målsetning å tilby studenter en arena for å lære informasjonssikkerhet, og samtidig bygge et miljø for sikkerhetsinteresserte studenter. Helt Sikker arrangerer workshops, CTF-er, foredrag mm. Om dette høres spennende ut, finner du mer informasjon på [heltsikker.no](https://www.heltsikker.no/) eller på deres [facebookside.](https://www.facebook.com/groups/heltsikker/)
 
 *Skrevet av Martin Tverråen, hentet fra [gummiand.no/](http://gummiand.no/), GitHub: [github.com/mtverraen/Informatikk-UiB-survival-guide](https://github.com/mtverraen/Informatikk-UiB-survival-guide).*
