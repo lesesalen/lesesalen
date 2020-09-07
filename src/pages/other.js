@@ -21,7 +21,7 @@ const BedpressIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Bedpress" />
+      <SEO title="Other" />
       {/* <Bio />  TODO: Uncomment this after making a working bio component*/}
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;

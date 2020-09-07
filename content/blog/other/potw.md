@@ -7,6 +7,12 @@ date: 2020-08-17
 
 If you only want the current playlist without going through the different weeks, you can find it here: [https://open.spotify.com/playlist/7ko2hTDcHjbxdAP16r7W2T?si=Q0La5FFXTIalepDc4ox9sw](https://open.spotify.com/playlist/7ko2hTDcHjbxdAP16r7W2T?si=Q0La5FFXTIalepDc4ox9sw).
 
+# Week 37 - Rokk and råll
+
+People have asked for a Norwegian rock playlist. So here comes the toppen of the kransecake of norwegian rock and beyond.
+
+<iframe src="https://open.spotify.com/embed/playlist/1z7Fnx3t0Y9dOTw2GOGex5" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 # Week 36 - Exploratory Journey
 
 It's time to explore some genres and music from "smaller" artitst. At least not that big in Europe. Some of them should be familiar though, as there are some larger artits as well.
