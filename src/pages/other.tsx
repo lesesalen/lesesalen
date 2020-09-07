@@ -28,7 +28,7 @@ const BedpressIndex: React.FC<Props> = ({ location }) => {
     query {
       allMdx(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { fileAbsolutePath: { regex: "/notes/" } }
+        filter: { fileAbsolutePath: { regex: "/other/" } }
       ) {
         edges {
           node {
