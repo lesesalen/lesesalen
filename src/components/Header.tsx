@@ -52,9 +52,9 @@ export default function StyledHeader() {
           }}
           to={`/`}
         >
-          <Logo />
         </Link>
       </h1>
+          <Logo />
       <>
         <p style={{ bottom: 0 }}>
           <Clock />
