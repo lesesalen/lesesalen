@@ -71,3 +71,4 @@ yarn-error.log
 .graphqlconfig
 schema.graphql
 .idea/
+.vscode/
