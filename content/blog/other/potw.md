@@ -3,6 +3,8 @@ title: Playlist of the week
 author: Mathias Bøe
 tags: playlist, week
 date: 2020-09-30
+color: "#1DB954"
+important: true
 ---
 
 If you only want the current playlist without going through the different weeks, you can find it here: [https://open.spotify.com/playlist/7ko2hTDcHjbxdAP16r7W2T?si=Q0La5FFXTIalepDc4ox9sw](https://open.spotify.com/playlist/7ko2hTDcHjbxdAP16r7W2T?si=Q0La5FFXTIalepDc4ox9sw).

@@ -47,6 +47,7 @@ interface Props {
   other?: boolean;
   notes?: boolean;
   tags?: boolean;
+  color?: string;
 }
 
 type StyledProps = Omit<Props, "delay">;
@@ -61,9 +62,10 @@ const StyledCard = styled.div<StyledProps>`
     margin-bottom: 12px;
 		box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
     background-color: #F1F1F1;
+		${(props) => props.important && important}
+    background-color: ${props => props.color ? props.color : null};
     ${(props) => props.animated && animatedCss}
 		${(props) => props.primary && primaryCss}
-		${(props) => props.important && important}
 		${(props) => props.news && newsCss}
 		${(props) => props.other && otherCss}
     ${(props) => props.notes && notesCss}
@@ -80,6 +82,7 @@ const Card: React.FC<Props> = ({
   noMargin,
   big,
   tags,
+  color,
   children,
 }) => {
   return (
@@ -93,6 +96,7 @@ const Card: React.FC<Props> = ({
       big={big}
       noMargin={noMargin}
       tags={tags}
+      color={color}
     >
       {children}
     </StyledCard>
