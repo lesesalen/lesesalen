@@ -50,7 +50,7 @@ Due to the nature of the table of contents rendering you can not have level 1 he
 
 - `## Like this`.
 
-Other bugs might occur, if you encounter one, please investigate and fix, or make it an issue on github [here](https://github.com/mrboen94/lesesalen/issues).
+Other bugs might occur, if you encounter one, please investigate and fix, or make it an issue on github [here](https://www.github.com/lessalen/lesesalen/issues).
 
 ## How do I help
 
