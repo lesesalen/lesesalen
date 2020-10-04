@@ -46,6 +46,7 @@ const BlogIndex: React.FC<Props> = ({ location }) => {
                 description
                 tags
                 important
+                color
               }
             }
           }
@@ -64,8 +65,9 @@ const BlogIndex: React.FC<Props> = ({ location }) => {
         const title = node.frontmatter.title || node.fields.slug;
         const tags = node.frontmatter.tags;
         const important = node.frontmatter.important;
+        const colorCss = node.frontmatter.color;
         return (
-          <Card important={important} big>
+          <Card important={important} color={colorCss} big>
             <article key={node.fields.slug}>
               <small>{node.frontmatter.date}</small>
               {tags && tags.length > 0 ? ` - ` : ``}
