@@ -6,13 +6,13 @@ tags: about, help, karma
 ---
 ## What is this website
 
-This website is an effort to gather all the information available on lesesalen from lots of different people. If you feel like you have something to contribute dont hesitate to make a pull request here: [github](https://www.github.com/mrboen94/lesesalen).
+This website is an effort to gather all the information available on lesesalen from lots of different people. If you feel like you have something to contribute dont hesitate to make a pull request here: [github](https://www.github.com/lesesalen/lesesalen).
 
 ## What can I help with
 
 ### Github issues
 
-Find a list over known issues and feature requests here: [github issues](https://github.com/mrboen94/lesesalen/issues)
+Find a list over known issues and feature requests here: [github issues](https://www.github.com/lesesalen/lesesalen/issues)
 
 This will have the most updated info about the issues and is a recommended starting point for everyone who wants to contribute.
 
@@ -50,7 +50,7 @@ Due to the nature of the table of contents rendering you can not have level 1 he
 
 - `## Like this`.
 
-Other bugs might occur, if you encounter one, please investigate and fix, or make it an issue on github [here](https://github.com/mrboen94/lesesalen/issues).
+Other bugs might occur, if you encounter one, please investigate and fix, or make it an issue on github [here](https://www.github.com/lessalen/lesesalen/issues).
 
 ## How do I help
 
