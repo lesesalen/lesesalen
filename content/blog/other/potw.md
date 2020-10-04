@@ -7,6 +7,12 @@ date: 2020-09-30
 
 If you only want the current playlist without going through the different weeks, you can find it here: [https://open.spotify.com/playlist/7ko2hTDcHjbxdAP16r7W2T?si=Q0La5FFXTIalepDc4ox9sw](https://open.spotify.com/playlist/7ko2hTDcHjbxdAP16r7W2T?si=Q0La5FFXTIalepDc4ox9sw).
 
+# Week 42 - Synthwave on the Streets of 2043
+
+These synthwaves and electronic beats will keep you rocking all week.
+
+<iframe src="https://open.spotify.com/embed/playlist/6CBG5TBBxrFFSd3PwFriJP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 # Week 41 - Outrun this synthwave if you can
 
 Lean back, relax and enjoy this journey back to the future.
