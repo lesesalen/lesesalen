@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "gatsby";
 
-const StyledNav = styled.div`
+const StyledNav = styled.nav`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,27 +14,32 @@ const StyledNav = styled.div`
   z-index: 10;
 `;
 
-const StyledH1 = styled.h1`
+const StyledLink = styled.a.attrs(props => {
+  href: props.href
+})`
   margin-top: 24px;
   margin-bottom: 24px;
   font-size: 14pt;
+  font-weight: 700;
+  font-family: 'Roboto Slab',sans-serif;
+  text-transform: uppercase;
 `;
 
 export default function Nav() {
   return (
     <StyledNav>
-      <Link to="/">
-        <StyledH1>HOME</StyledH1>
-      </Link>
-      <Link to="/notes/">
-        <StyledH1>NOTES</StyledH1>
-      </Link>
-      <Link to="/info/">
-        <StyledH1>INFO</StyledH1>
-      </Link>
-      <Link to="/other/">
-        <StyledH1>OTHER</StyledH1>
-      </Link>
+      <StyledLink href="/">
+        Home
+      </StyledLink>
+      <StyledLink href="/notes/">
+        Notes
+      </StyledLink>
+      <StyledLink href="/info/">
+        Info
+      </StyledLink>
+      <StyledLink href="/other/">
+        Other
+      </StyledLink>
     </StyledNav>
   );
 }

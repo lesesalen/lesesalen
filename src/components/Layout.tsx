@@ -27,9 +27,11 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
     header = <StyledHeader />;
   } else {
     header = (
-      <h3
+      <div
         style={{
           fontFamily: `Roboto, sans-serif`,
+          textTransform: `uppercase`,
+          fontWeight: 700,
           marginTop: 0,
         }}
       >
@@ -42,7 +44,7 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
         >
           Back to home
         </Link>
-      </h3>
+      </div>
     );
   }
   return (
