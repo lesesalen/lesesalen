@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, withPrefix } from "gatsby";
 
 import { rhythm } from "../utils/typography";
@@ -10,6 +10,11 @@ interface Props {
   title: string;
   children: React.ReactNode;
 }
+
+interface SpookSetting {
+  x: number;
+  y: number;
+};
 
 const Layout: React.FC<Props> = ({ location, title, children }) => {
   const rootPath = withPrefix("/");
@@ -45,6 +50,26 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
       </h3>
     );
   }
+  
+  let [spook, setSpooks] = useState<SpookSetting | null>(null);
+
+  const renderSpook = (setting: SpookSetting) => {
+    return (
+      <div style={{
+        position: "fixed",
+        left: setting.x,
+        top: setting.y,
+        zIndex: 10
+      }}>
+        Spook!
+      </div>
+    );
+  };
+
+  const clickEvent = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    setSpooks({ x: event.clientX, y: event.clientY });
+  };
+
   return (
     <div
       style={{
@@ -53,10 +78,11 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
+      onClick={clickEvent}
     >
       <header>{header}</header>
       <Nav />
-      <main>{children}</main>
+      <main>{spook && renderSpook(spook)}{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
