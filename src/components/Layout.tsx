@@ -4,6 +4,7 @@ import { Link, withPrefix } from "gatsby";
 import { rhythm } from "../utils/typography";
 import Nav from "./Nav";
 import StyledHeader from "./Header";
+import axios from "axios";
 
 interface Props {
   location: Record<string, string>;
@@ -14,7 +15,15 @@ interface Props {
 interface SpookSetting {
   x: number;
   y: number;
+  url: string;
 };
+
+interface GiphyResponse {
+  data: { images: { original: { url: string } } };
+}
+
+// Spooky global! :o
+var spookTimer: number;
 
 const Layout: React.FC<Props> = ({ location, title, children }) => {
   const rootPath = withPrefix("/");
@@ -53,7 +62,7 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
   
   let [spook, setSpooks] = useState<SpookSetting | null>(null);
 
-  const renderSpook = (setting: SpookSetting) => {
+  const renderSpook = (setting: SpookSetting) => {  
     return (
       <div style={{
         position: "fixed",
@@ -61,13 +70,28 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
         top: setting.y,
         zIndex: 10
       }}>
-        Spook!
+        <img src={setting.url} />
+        <div style={{
+            position: "absolute",
+            left: 10,
+            bottom: 40
+          }}>
+            Powered by Giphy
+          </div>
       </div>
     );
   };
 
-  const clickEvent = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    setSpooks({ x: event.clientX, y: event.clientY });
+  const clickEvent = async (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    if (!Math.floor(Math.random() * 5)) {
+      event.persist();
+      const gif = await axios.get<GiphyResponse>(
+        `https://api.giphy.com/v1/gifs/random?tag=skeleton&api_key=${"Vbv8aoOCaGFKohQSoW0jIjrCN9yvbzsz"}`,
+      );
+      setSpooks({ x: event.clientX, y: event.clientY, url: gif.data.data.images.original.url});
+      clearTimeout(spookTimer);
+      spookTimer = setTimeout(setSpooks, 2000, null);
+    }
   };
 
   return (
