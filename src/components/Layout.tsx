@@ -86,7 +86,7 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
     if (!Math.floor(Math.random() * 5)) {
       event.persist();
       const gif = await axios.get<GiphyResponse>(
-        `https://api.giphy.com/v1/gifs/random?tag=skeleton&api_key=${String(process.env.GIPHY_KEY)}`,
+        `https://api.giphy.com/v1/gifs/random?tag=skeleton&api_key=${new String(process.env.GATSBY_GIPHY_KEY)}`,
       );
       setSpooks({ x: event.clientX, y: event.clientY, url: gif.data.data.images.original.url});
       clearTimeout(spookTimer);
