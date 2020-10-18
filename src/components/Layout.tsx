@@ -16,7 +16,7 @@ interface SpookSetting {
   x: number;
   y: number;
   url: string;
-};
+}
 
 interface GiphyResponse {
   data: { images: { original: { url: string } } };
@@ -59,36 +59,48 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
       </h3>
     );
   }
-  
+
   let [spook, setSpooks] = useState<SpookSetting | null>(null);
 
-  const renderSpook = (setting: SpookSetting) => {  
+  const renderSpook = (setting: SpookSetting) => {
     return (
-      <div style={{
-        position: "fixed",
-        left: setting.x,
-        top: setting.y,
-        zIndex: 10
-      }}>
+      <div
+        style={{
+          position: "fixed",
+          left: setting.x,
+          top: setting.y,
+          zIndex: 10,
+        }}
+      >
         <img src={setting.url} />
-        <div style={{
+        <div
+          style={{
             position: "absolute",
             left: 10,
-            bottom: 40
-          }}>
-            Powered by Giphy
-          </div>
+            bottom: 40,
+          }}
+        >
+          Powered by Giphy
+        </div>
       </div>
     );
   };
 
-  const clickEvent = async (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+  const clickEvent = async (
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) => {
     if (!Math.floor(Math.random() * 5)) {
       event.persist();
       const gif = await axios.get<GiphyResponse>(
-        `https://api.giphy.com/v1/gifs/random?tag=skeleton&api_key=${new String(process.env.GATSBY_GIPHY_KEY)}`,
+        `https://api.giphy.com/v1/gifs/random?tag=skeleton&api_key=${String(
+          process.env.GATSBY_GIPHY_KEY
+        )}`
       );
-      setSpooks({ x: event.clientX, y: event.clientY, url: gif.data.data.images.original.url});
+      setSpooks({
+        x: event.clientX,
+        y: event.clientY,
+        url: gif.data.data.images.original.url,
+      });
       clearTimeout(spookTimer);
       spookTimer = setTimeout(setSpooks, 2000, null);
     }
@@ -106,7 +118,10 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <Nav />
-      <main>{spook && renderSpook(spook)}{children}</main>
+      <main>
+        {spook && renderSpook(spook)}
+        {children}
+      </main>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}

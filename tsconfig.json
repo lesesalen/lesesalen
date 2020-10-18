@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable"
-    ],
+    "lib": ["esnext", "dom", "dom.iterable"],
     "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -23,10 +19,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "src/**/*"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
 }

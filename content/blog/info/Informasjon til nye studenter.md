@@ -12,7 +12,8 @@ Som ny student er det mange ting du må få oversikt over, og overgangen fra vid
 
 > Disclaimer: Denne guiden reflekterer i stor grad mine personlige synspunkt og meninger, og representerer hverken echo, Helt Sikker eller UiB.
 
-----
+---
+
 ## TL;DR
 
 - MatNat har en [sjekkliste for studiestart](https://www.uib.no/student/127911/sjekkliste-i-studiestarten).
@@ -46,27 +47,31 @@ Som ny student er det mange ting du må få oversikt over, og overgangen fra vid
 
 <iframe src="https://discordapp.com/widget?id=687650156262195217&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-- Facebook: 
-    - [echo sin Facebook gruppe: ](https://www.facebook.com/groups/informatikk/)  
-    Her kommer kunngjøringer, bedpresser etc.  
-    - [echo Aktiv/Sosial: ](https://www.facebook.com/groups/1785913424994492/)  
+- Facebook:
+  - [echo sin Facebook gruppe: ](https://www.facebook.com/groups/informatikk/)  
+    Her kommer kunngjøringer, bedpresser etc.
+  - [echo Aktiv/Sosial: ](https://www.facebook.com/groups/1785913424994492/)  
     Her kan folk poste om de vil finne på noe sosialt, som fjelltur, brettspill, spille switch på lesesalen etc.
 
 ---
+
 ## Livet som (ny) student
 
 Her følger noen tips til studenthverdagen ved ii.
 
 Elever og studenter i høyere og annen utdanning som ikke kan jobbe ved siden av utdanningen på grunn av nedsatt funksjonsevne (ADHD, dysleksi, annet), kan få et ekstrastipend. Ekstrastipendet på 3 763 kroner per måned kommer i tillegg til vanlig studiestøtte fra Lånekassen. Dersom du er deltidsstudent, blir ekstrastipendet redusert tilsvarende deltidsprosenten din. Du finner mer informasjon på [lånekassens sider](https://www.lanekassen.no/nb-NO/Stipend-og-lan/Hoyere-utdanning/Hvor-mye-kan-du-fa/Nye-stotteordninger-for-elever-og-studenter-med-nedsatt-funksjonsevne/Ekstra-stipend-/)
 
-### Fagforeninger 
-Fagforeninger som [Nito](https://www.nito.no/) og [Tekna](https://www.tekna.no/) har studentmedlemskap som gir deg de samme fordelene som ordentlige medlemskap. 
+### Fagforeninger
+
+Fagforeninger som [Nito](https://www.nito.no/) og [Tekna](https://www.tekna.no/) har studentmedlemskap som gir deg de samme fordelene som ordentlige medlemskap.
 Hos Nito betaler man en engangsavgift på 350kr, og medlemskap var ut studietiden.
 Hos Tekna betaler man 150kr i semsteret for medlemskap.
-Tilbudet er omtrent likt hos begge to.  
+Tilbudet er omtrent likt hos begge to.
+
 > _Om du melder deg inn ved en Nito/Tekna stand, får man ofte med en drikkeflaske eller annet merch. Du finner dem ofte på RFB ved i starten av semesteret_
 
 Du får veldig gode forsikringsavtaler gjennom fagforeningene. Om du betaler for forsikring, kan du spare penger på å melde deg inn i fagforening.
+
 - [Tekna Student forsikringsavtaler](https://www.tekna.no/medlemsfordeler/studentmedlemskap/forsikring-for-studenter/)
 - [Nito Student forsikringsavtaler](https://www.nito.no/medlemsfordel/studentforsikring/)
 
@@ -74,24 +79,23 @@ Begge fagforeningene har studentlag ved UiB og HVL som arrangerer faglige kræsj
 
 ### Studentrabatter
 
-| Tjeneste | Tilbud |
-|----------|--------|
-|[Spotify har studentpriser](https://www.spotify.com/no/student/verification/)|~~109kr~~ 54kr|
-|[IntelliJ](https://www.jetbrains.com/student/)| Gratis |
-|[Github Education](https://education.github.com/pack)|Masse gratis tilbud for studenter|
-|[Synstest hos Brilleland](https://www.brilleland.no/tilbud/studentrabatt/)|~~740kr~~ 550kr|
-|[Lenovo student](https://www.lenovo.com/no/no/studentrabatt/)| _Opp til 20%_|
-|[Dell student](https://www.dell.com/no-no/shop/dell-advantage/cp/students)| 10% på XPS, 5% på Inspiron|
-|[NextGenTel Fiber](https://www.nextgentel.no/privat/student)|_Opp til 600kr avslag mot bindingstid_|  
-|[Skyss ungdomsbillett](https://www.skyss.no/Billettar-og-prisar/billettar-og-prisar2/30-dagars-ungdomsbillett/)|Billigere enn studentbillett om du er under 21|
-|Vy|Samme prisen, men du må ha studentbevis|
-|[Pizzabakeren](https://www.pizzabakeren.no/studentrabatt)|159kr for stor pizza |
-|Øl|Det er ofte studentrabatt, bare å spørre|
+| Tjeneste                                                                                                        | Tilbud                                         |
+| --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [Spotify har studentpriser](https://www.spotify.com/no/student/verification/)                                   | ~~109kr~~ 54kr                                 |
+| [IntelliJ](https://www.jetbrains.com/student/)                                                                  | Gratis                                         |
+| [Github Education](https://education.github.com/pack)                                                           | Masse gratis tilbud for studenter              |
+| [Synstest hos Brilleland](https://www.brilleland.no/tilbud/studentrabatt/)                                      | ~~740kr~~ 550kr                                |
+| [Lenovo student](https://www.lenovo.com/no/no/studentrabatt/)                                                   | _Opp til 20%_                                  |
+| [Dell student](https://www.dell.com/no-no/shop/dell-advantage/cp/students)                                      | 10% på XPS, 5% på Inspiron                     |
+| [NextGenTel Fiber](https://www.nextgentel.no/privat/student)                                                    | _Opp til 600kr avslag mot bindingstid_         |
+| [Skyss ungdomsbillett](https://www.skyss.no/Billettar-og-prisar/billettar-og-prisar2/30-dagars-ungdomsbillett/) | Billigere enn studentbillett om du er under 21 |
+| Vy                                                                                                              | Samme prisen, men du må ha studentbevis        |
+| [Pizzabakeren](https://www.pizzabakeren.no/studentrabatt)                                                       | 159kr for stor pizza                           |
+| Øl                                                                                                              | Det er ofte studentrabatt, bare å spørre       |
 
-<br/>  
+<br/>
 
 **Har du noen flere? Er et tilbud utgått? Lag en pull request**
-
 
 ### Første Uka
 
@@ -103,43 +107,47 @@ Den første uka er det mange ting som skjer: Klassemottak og fadderuke, forelesn
 - [Studentbevis har du gjennom studentbevis-appen](https://www.uib.no/student/82508/studentbevisapp).
 - Du må semesterregistrere deg på [studentweb](https://studentweb.uib.no/).
 - Møte opp på programmøtet og de første forelesningene. Det vil være et programmøte hvor oppmøte er obligatorisk (Les: Du mister studieplassen din om du ikke møter). Her får du litt info om hvordan instituttet funker, hvem som er studieveiledere osv. I de første forelesningene blir det gitt praktisk informasjon om det aktuelle faget. Dette er ting som eksamensdato, eksamensform, obligatorisk aktivitet, hvem som er gruppeledere etc.
-> Du må betale semesteravgiften før du får utbetalt studielånet.  
-> Betal med Vipps, så går pengene gjennom med en gang  
+  > Du må betale semesteravgiften før du får utbetalt studielånet.  
+  > Betal med Vipps, så går pengene gjennom med en gang
 
-**Frist for betaling er *1. September*, du mister studieretten din om du glemmer dette.**
+**Frist for betaling er _1. September_, du mister studieretten din om du glemmer dette.**
 
 _Univesitetet/Fakultetet/Instituttet/Forelesere sier ofte at 1. forelesning er obligatorisk, men dette gjelder kun for 1. klassinger eller Masterstudenter. Det er mulig å melde seg opp i fag fram til 1. september / 1. februar, og du blir ikke kastet ut av faget om du går glipp av første forelesning._
 
 ### Eduroam
 
 For å komme på nett på UiB, HVL og andre utdanningsinstitusjoner, bruker du et nettverk som heter Eduroam.  
-Dette nettet logger du på med studentkontoen din; brukernavn@uib.no og passord.  
->brukernavn@student.uib.no fungerer ikke etter 2017-12-16  
+Dette nettet logger du på med studentkontoen din; brukernavn@uib.no og passord.
+
+> brukernavn@student.uib.no fungerer ikke etter 2017-12-16  
 > Eduroam har en [config tool](https://cat.eduroam.org/?idp=535) om du ikke klarer å koble deg på  
 > Om du har problemer med Eduroam på f.eks Linux, kan du sjekke [denne siden](https://it.uib.no/en/Eduroam)  
-> Eduroam finnes også på alle de største flyplassene i Norge. 
+> Eduroam finnes også på alle de største flyplassene i Norge.
 
 Om du kobler deg til Eduroam på telefonen, kan den koble seg til når du er på bussen/bybanen, som fort kan bli litt irriterende.
 
-Om du har problemer med Eduroam, kan du koble deg på UiB Gjest. Her kan du logge deg inn med telefonnummer og engangskode eller bruke UiB brukernavnet ditt.  `brukernavn:passord`
+Om du har problemer med Eduroam, kan du koble deg på UiB Gjest. Her kan du logge deg inn med telefonnummer og engangskode eller bruke UiB brukernavnet ditt. `brukernavn:passord`
 
 ### Helse
 
-Som informatikkstudent vil du bruke mye tid foran en datamaskin eller bøker, og dette gjør man gjerne sittende. Det anbefales på det sterkeste at du passer på din egen helse. For mye tid sittende er en god måte å få problemer senere i livet. Ta pauser med jevne mellomrom, strekk litt på beina og gå deg en liten tur i ny og ne. Pass også på øynene dine; for å stirre på kode som ikke fungerer kan være en skikkelig belastning på øynene. For mange vil det å bruke lesebriller være lurt og briller er ikke så dyrt. [Databriller er ikke nødvendig](https://www.tmc.edu/news/2020/01/debunking-blue-light-glasses-claims-to-focus-on-proven-eye-issues/), men selv om du bare har ***litt dårlig syn***, burde du bruke briller når du jobber med skole.
+Som informatikkstudent vil du bruke mye tid foran en datamaskin eller bøker, og dette gjør man gjerne sittende. Det anbefales på det sterkeste at du passer på din egen helse. For mye tid sittende er en god måte å få problemer senere i livet. Ta pauser med jevne mellomrom, strekk litt på beina og gå deg en liten tur i ny og ne. Pass også på øynene dine; for å stirre på kode som ikke fungerer kan være en skikkelig belastning på øynene. For mange vil det å bruke lesebriller være lurt og briller er ikke så dyrt. [Databriller er ikke nødvendig](https://www.tmc.edu/news/2020/01/debunking-blue-light-glasses-claims-to-focus-on-proven-eye-issues/), men selv om du bare har **_litt dårlig syn_**, burde du bruke briller når du jobber med skole.
 
 ### Trening
-Her er en liste over alle treningssentere i Bergen. Om du liker å trene med venner, så havner man som regel på Sammen trening. Om du trener alene, så er det mange andre å velge mellom  
+
+Her er en liste over alle treningssentere i Bergen. Om du liker å trene med venner, så havner man som regel på Sammen trening. Om du trener alene, så er det mange andre å velge mellom
+
 #### **[Sammen trening](https://www.sammen.no/no/bergen/trening)**
+
 Sammen er billigst, og koster kun 1200kr per semester. Det er da 200kr/mnd.  
 Sammen har [dårlige åpningstider](https://www.sammen.no/no/bergen/trening/apningstider), spesielt i helgene og rundt eksamensperiodene.
-Det er ofte stappet i rushtider (12.00 og 16.00), og i koronatidene kan det bli kø for å komme inn.  
-  
-<br/>  
+Det er ofte stappet i rushtider (12.00 og 16.00), og i koronatidene kan det bli kø for å komme inn.
 
-> Alle andre er ordinære treningssentre, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.  
+<br/>
 
+> Alle andre er ordinære treningssentre, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.
 
 #### **[SATS](https://www.sats.no/bli-medlem/student/)**
+
 SATS er størst i Norge, og tilbyr mange sentere i Bergen.  
 Bor du nærme Lagunen Storsenter eller Horisont Åsane, så har de store sentere på toppen av senteret.
 SATS har ganske like åpningstider som Sammen, med unntak av [Danmarksplass](https://www.sats.no/treningssentre/bergen/sats-danmarksplass/), som er ubemannet men åpent 05.00-23.00 hele uka.  
@@ -147,36 +155,40 @@ Studentpris er 20% avslag, så grunnpakke er ca. 350kr/mnd med 12 måneder bindi
 De tilbyr masse gruppetrening, som koster ekstra, og tredemøllene blir plutselig opptatt på grunn av en løpetime.
 
 #### **[iTrain](https://www.itrain.no/bli-medlem-naa)**
+
 For deg som liker å trene klokka 03.22 på en onsdag.  
-iTrain har 3 knøttsmå sentere i Bergen, men tilbyr døgnåpen tilgang. Ja, det er folk som kommer og trener der midt på natta. 
-Studentpris er 1674kr/semester (279kr/mnd). 
+iTrain har 3 knøttsmå sentere i Bergen, men tilbyr døgnåpen tilgang. Ja, det er folk som kommer og trener der midt på natta.
+Studentpris er 1674kr/semester (279kr/mnd).
 
 #### **[Evo fitness](https://evofitness.no/)**
+
 Evo er et ganske nytt senter i Bergen. De har ubemannet åpningstid fra 05.00-24.00.  
 De har ikke studentpriser, og koster 379kr/mnd.
 
 #### **[nr1Fitness](https://www.nr1fitness.no/studentpakken/)**
-De har 10 sentere i Bergen. Jeg tror at de tidligere var døgnåpne, men er nå åpne fra 05.00-24.00.   
+
+De har 10 sentere i Bergen. Jeg tror at de tidligere var døgnåpne, men er nå åpne fra 05.00-24.00.  
 Studenter kan trene på alle sentere i Bergen for 275kr/mnd uten binding.
 
 #### **[Bergen Tennis Arena](https://bergentennisarena.no/?page_id=2612)**
-Paradis tennis klubb har et digert senter på Slettebakken, men et treningssenter. 
+
+Paradis tennis klubb har et digert senter på Slettebakken, men et treningssenter.
 Innmelding i PKT koster 450kr(nif).  
 Uten binding: 359kr/mnd
 Med binding: 312kr/mnd inkl. PKT medlemskap
 
+#### Annet:
 
-#### Annet: 
-Det finnes en rekke andre tilbud i Bergen, bla.  
-* [BSI: Bergen Studentidrettslag](https://bsi.no/#section1)
-* [Squash](https://www.facebook.com/groups/282025509313458/)
-* [Klatring](https://www.bergen-klatreklubb.no/bryggeriet/)
-* [Volleyball](https://volleyball.bsi.no/no/)
-* [Sammen trening har mange forskjellige tilbud](https://www.sammen.no/no/bergen/trening)
-* [Fjelltur](https://ut.no/omrade/1240/byfjellene-i-bergen)
-* [Svømming](https://adoarena.no/no/)
-* [Tennis](https://bergentennisarena.no/) 
+Det finnes en rekke andre tilbud i Bergen, bla.
 
+- [BSI: Bergen Studentidrettslag](https://bsi.no/#section1)
+- [Squash](https://www.facebook.com/groups/282025509313458/)
+- [Klatring](https://www.bergen-klatreklubb.no/bryggeriet/)
+- [Volleyball](https://volleyball.bsi.no/no/)
+- [Sammen trening har mange forskjellige tilbud](https://www.sammen.no/no/bergen/trening)
+- [Fjelltur](https://ut.no/omrade/1240/byfjellene-i-bergen)
+- [Svømming](https://adoarena.no/no/)
+- [Tennis](https://bergentennisarena.no/)
 
 ### Sammen
 
@@ -193,17 +205,17 @@ Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilb
 | SEB                   | Forkortelse for Safe Exam Browser                                     |
 | Sebra                 | Sebra.uib.no: Her oppretter du studentkonto og endrer passord         |
 | Kont/Konte            | Nytt eksamensforsøk, normalt tidlig eksamen for studenter som stryker |
-| ii                    | Institutt for informatikk                                              |
+| ii                    | Institutt for informatikk                                             |
 | Matnat                | Matematisk-Naturvitenskapelig fakultet                                |
-| echo                    | echo er Fagutvalget for informatikkstudenter. [Les mer](#echo)                   |
-| FU eller FUii                 | Kort for "Fagutvalget", echos tidligere navn                   |
+| echo                  | echo er Fagutvalget for informatikkstudenter. [Les mer](#echo)        |
+| FU eller FUii         | Kort for "Fagutvalget", echos tidligere navn                          |
 | Høyden                | Hele området rundt UiB sitt campus i Bergen sentrum                   |
-| RFB                   | Realfagsbygget. Hovedbygget til MatNat.                                           |
+| RFB                   | Realfagsbygget. Hovedbygget til MatNat.                               |
 | Høytek                | Høyteknologisenteret. Thormøhlensgt 55                                |
-| HiB                   | Høyteknologisenteret i Bergen, ikke Høyskolen i Bergen (Nå kalt HVL)   |
+| HiB                   | Høyteknologisenteret i Bergen, ikke Høyskolen i Bergen (Nå kalt HVL)  |
 | VilVite               | Undervisningslokaler i nabobygget (som er Vitensenteret)              |
 | Allegaten 66/ A66     | Undervisningslokale ved Matnat                                        |
-| Administrasjonsbygget | Eksamenslokalet i Solheimsgaten på Danmarksplass                       |
+| Administrasjonsbygget | Eksamenslokalet i Solheimsgaten på Danmarksplass                      |
 | Høyskolen/HVL         | Høyskolen på Vestlandet. Ligger ved Kronstad bybanestopp.             |
 | Oblig                 | Obligatorisk oppgave/innlevering                                      |
 
@@ -211,7 +223,7 @@ Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilb
 
 | Tech-ord                    | Forklaring                                                                             |
 | --------------------------- | -------------------------------------------------------------------------------------- |
-| Versjonskontroll (VCS)      | System for å lagre flere versjoner av filer.                         |
+| Versjonskontroll (VCS)      | System for å lagre flere versjoner av filer.                                           |
 | Git                         | Versjonskontroll-teknologi. Bransjestandard.                                           |
 | Repo                        | Kort for repository. Et sted der man lagrer kode.                                      |
 | Commit                      | En endring av filer med versjonskontroll.                                              |
@@ -236,7 +248,7 @@ Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilb
 - **12. august:** Semesterstart
 - **1. september:** Frist for å godkjenne utdanningsplan for høstsemesteret **og** betale semesteravgift. Påmelding til fag stenger.
 - **1. desember:** Hvert enkelt emnes timeplan for vårsemesteret blir publisert. I tillegg blir litteraturlister (pensum) og eksamensplan publisert.
-- **9. desember:** Studentweb åpner for neste semesters registrering. 
+- **9. desember:** Studentweb åpner for neste semesters registrering.
 - **1. februar:** Påmelding til fag stenger.
 
 Et typisk semester foregår slik:
@@ -254,14 +266,14 @@ Om du lurer på noe som helst om studieprogresjon, instituttet eller studiet i s
 Den beste måten å komme i kontakt med studieveilederne på instituttet er å sende en epost til **studieveileder@ii.uib.no**. Mailen går da til samtlige, og da vet man også at saken blir behandlet selv om en av veilederene ikke er på jobb.
 Du kan også ta kontakt med hver enkelt studieveileder direkte:
 
-| Studieveileder                            | Område                                                |
-| ----------------------------------------- | ----------------------------------------------------- |
-| Øystein K. Bondevik (vikar ut 2020) studieveileder@ii.uib.no        | Bachelorprogram, utveksling, innpassing               |
-| Pål Magnus Gunnestad pal.gunnestad@uib.no | Masterprogram, forskerutdanning (PhD)                 |
-| Mo Yan Yuen mo.yan.yuen@uib.no            | Eksamen, timeplan, emneevaluering                     |
-| liljan Myhr liljan.myhr@uib.no            | Gruppelederansettelser, klager på karakterfastsetting |
-> Denne informasjonen kan være utdatert, om du trenger direkte kontakt med en veileder, se [ii.uib.no](https://www.uib.no/ii/122768/studieveiledning), men studieveileder@ii.uib.no vil alltid fungere.
+| Studieveileder                                               | Område                                                |
+| ------------------------------------------------------------ | ----------------------------------------------------- |
+| Øystein K. Bondevik (vikar ut 2020) studieveileder@ii.uib.no | Bachelorprogram, utveksling, innpassing               |
+| Pål Magnus Gunnestad pal.gunnestad@uib.no                    | Masterprogram, forskerutdanning (PhD)                 |
+| Mo Yan Yuen mo.yan.yuen@uib.no                               | Eksamen, timeplan, emneevaluering                     |
+| liljan Myhr liljan.myhr@uib.no                               | Gruppelederansettelser, klager på karakterfastsetting |
 
+> Denne informasjonen kan være utdatert, om du trenger direkte kontakt med en veileder, se [ii.uib.no](https://www.uib.no/ii/122768/studieveiledning), men studieveileder@ii.uib.no vil alltid fungere.
 
 Det er tryggest å booke time med dem på epost i forkant, men om du har et raskt spørsmål eller to, eller noe som haster, er de som regel å nå på kontoret. Du kan generelt sett spørre hvem som helst om hva som helst, og om de ikke kan svare på spørsmålet ditt, kan de alltid peke deg i retning av noen som kan!
 
@@ -285,16 +297,14 @@ Sjekk også ut Bookis-appen for enda flere brukte bøker! Om du liker bøkene di
 
 Du kan finne notater til fag på [Lesesalen.com/notes](https://lesesalen.com/notes/), men det finnes også en haug med gamle notater på echo sin [OneNote](http://bit.ly/echo-onenote). Finner du ikke faget du skal ha? Skriv dine egne noter og send en PR.
 
-> Pass på at både notatene du finner, og fag som eldre studenter anbefaler deg, ikke nødvendigvis er samme faget. Mange fag bytter pensum og navn.   
-F.eks. INF143 og INF143A, INF240(0) og INF240(1), INF144 og INF242.  
+> Pass på at både notatene du finner, og fag som eldre studenter anbefaler deg, ikke nødvendigvis er samme faget. Mange fag bytter pensum og navn.  
+> F.eks. INF143 og INF143A, INF240(0) og INF240(1), INF144 og INF242.
 
 ### Valg av PC
 
 Det er ofte mye usikkerhet når det kommer til hvilken PC og operativsystem en skal velge. På informatikkstudiet bruker omtrent like mange Windows som OSX som en eller annen Linuxdistro. Det eneste som er verdt å merke seg er at eksamensprogramvaren ikke er Linuxkompatibelt og krever en lånepc (se [eksamen](#eksamen)).
 
 Om du skal velge PC ut fra et kriterie, burde det (etter min mening) være Ram (minne). Velg 16GB, så har du nok til å kjøre nettleser, IDE og virtuelle maskiner samtidig også. Dette er en PC du skal dra med deg, så vekt er kanskje en faktor å vurdere. Stikkontakter finnes i de fleste auditoriumene, så batterilevetid er nok mindre viktig. Under mitt første år brukte jeg skole-PCen fra videregående, og den funket også helt fint, selv om den ikke var topspekket.
-
-
 
 ### Programmeringen
 
@@ -325,29 +335,29 @@ Codeacademy.com har kurs for mange programmeringsspråk (Feks. Python). Ikke all
 
 Når man programmerer har man gjerne to typer verktøy. Enten en IDE eller en editor. En editor er et enkelt redigeringsprogram som gir deg det du trenger, syntax highlighting og auto completion. En IDE er storebroren til disse ; her får man gjerne verktøy som debuggere, avansert refaktorering og kompilatorer innebygd. I INF100 bruker du kanskje Jupiter til alle oppgaver og innleveringer, men til senere vil du innstallere en egen IDE.
 
-**IntelliJ**  
+**IntelliJ**
 
-De (sannsynligvis) beste IDEene utvikles av JetBrains. [Jetbrains](https://www.jetbrains.com/student/) har IDE-er for flere språk. Mest aktuelt for nye studenter er gjerne IntelliJ for Java, og PyCharm for Python. Som student får man tilgang til alle verktøyene deres gratis så lenge man er student, registrer deg på lenken og bruk UiB-eposten din. 
+De (sannsynligvis) beste IDEene utvikles av JetBrains. [Jetbrains](https://www.jetbrains.com/student/) har IDE-er for flere språk. Mest aktuelt for nye studenter er gjerne IntelliJ for Java, og PyCharm for Python. Som student får man tilgang til alle verktøyene deres gratis så lenge man er student, registrer deg på lenken og bruk UiB-eposten din.
 
-> Jetbrains lager mange forskjellige IDEer, men forskjellige navn. Det er lite forskjell på IntelliJ og PyCharm, da de i bunn er samme program. Det finnes også en open source versjon kalt Community Edition. IDEer som Android Studio er basert på dette.  
+> Jetbrains lager mange forskjellige IDEer, men forskjellige navn. Det er lite forskjell på IntelliJ og PyCharm, da de i bunn er samme program. Det finnes også en open source versjon kalt Community Edition. IDEer som Android Studio er basert på dette.
 
 **VS Code**
-[VS Code](https://code.visualstudio.com/) er en open source ***editor*** laget av Microsoft, og må ikke blandes med Visual Studio, Microsoft sin C# og .NET IDE. Gir deg mye av den samme funksjonaliteten som IntelliJ, men kan være litt vanskelig for nybegynnere å sette opp. Funker best for de som ønsker å programmere i flere språk med samme program.
+[VS Code](https://code.visualstudio.com/) er en open source **_editor_** laget av Microsoft, og må ikke blandes med Visual Studio, Microsoft sin C# og .NET IDE. Gir deg mye av den samme funksjonaliteten som IntelliJ, men kan være litt vanskelig for nybegynnere å sette opp. Funker best for de som ønsker å programmere i flere språk med samme program.
 
 #### Git, GitHub, GitLab, Bitbucket
 
 Git er et verktøy for versjonskontroll og kodedeling. Dette betyr at man blant annet kan lagre hele historikken til hvordan koden har utviklet seg, og det er mulig å gå tilbake til et hvilket som helst punkt. Det anbefales å lære seg git litt før man møter det for første gang, det kan være ganske ulogisk og forvirrende. Codecademy har en flott [tutorial](https://www.codecademy.com/learn/learn-git).
 
 Det finnes flere tjenester som tilbyr Git-versjonskontroll. Den mest kjente er GitHub. Det finnes fag ved instituttet hvor man også bruker GitLab til å administrere innleveringer. En del liker også å bruke Bitbucket. Hvordan man derimot bruker selve Git-teknologien er likt for alle tilbyderne.
->**Git**
-Gratis program laget av [Linus Torvalds](https://www.youtube.com/watch?v=4XpnKHJAok8)  <br/>
-**Github**  
-Privat selskap som drifter git servere for deg. Ble kjøpt opp av Microsoft.  <br/>
-**Gitlab**
-Åpen versjon av Github, lar deg _hoste din egen versjon av Github_. UiB bruker dette i fag som INF101.<br/>
-**BitBucket**
-Alternativ til Github, hovedsakelig rettet mot bedrifter. Har bra integrasjon med Jira, et populært prosjektledelsesverktøy.  
-  
+
+> **Git**
+> Gratis program laget av [Linus Torvalds](https://www.youtube.com/watch?v=4XpnKHJAok8) <br/>
+> **Github**  
+> Privat selskap som drifter git servere for deg. Ble kjøpt opp av Microsoft. <br/>
+> **Gitlab**
+> Åpen versjon av Github, lar deg _hoste din egen versjon av Github_. UiB bruker dette i fag som INF101.<br/>
+> **BitBucket**
+> Alternativ til Github, hovedsakelig rettet mot bedrifter. Har bra integrasjon med Jira, et populært prosjektledelsesverktøy.
 
 På GitHub skiller man gjerne mellom offentlige og private repositories. Et offentlig repository kan hvem som helst finne. Det er en fantastisk måte å vise arbeidet sitt frem for andre studenter og potensielle arbeidsgivere. For mindre prosjekter og innleveringer, er private repositories gode å ha. Disse er ikke synlige for allmennheten, og kun tilgjengelige for deg. Uansett om man velger private eller offentlige repositories, kan man legge til og fjerne samarbeidspartnere etter ønske. Private repositories er gratis på GitHub, GitLab og Bitbucket men med noen restriksjoner dersom man ikke har et Pro-abonnement.
 
@@ -365,7 +375,7 @@ Gummiender er en populær meme blant IT-folk, og refererer til "rubber duck debu
 
 ### Matematikken
 
-Matematikken er for mange tøff det første året. 
+Matematikken er for mange tøff det første året.
 
 **I MAT111** har man 8 obligatoriske innleveringer i løpet av semesteret, hvor 6 av dem må bestås. Det arrangeres gruppetimer hver uke hvor man kan jobbe med oppgaver og få hjelp av en gruppeleder som selv er student og har tatt faget. Om du er typen som ikke trives særlig godt i forelesninger anbefaler jeg virkelig å gå i gruppetimene! I dem kan du i stor grad jobbe i ditt eget tempo og få veiledningen tilpasset det du faktisk sliter med på det tidspunktet.
 
@@ -384,8 +394,9 @@ Hver torsdag fra 13-15 steker de vafler, så de kan gjerne kjennes igjen på luk
 ## Forelesninger, innleveringer og eksamen
 
 ### Timeplan
+
 Å få oversikt over alle forelesninger og gruppetimer kan bli vanskelig, og i kalenderen til Mitt UiB blir det fort rotete.  
-Går du inn [på denne siden](https://tp.uio.no/uib/timeplan/emner.php), kan du få opp timeplanen til induviduelle fag. 
+Går du inn [på denne siden](https://tp.uio.no/uib/timeplan/emner.php), kan du få opp timeplanen til induviduelle fag.
 
 ### Forelesninger
 
@@ -429,14 +440,13 @@ MAT111 har tidlig eksamen for studenter med [**gyldig fravær**](https://www.uib
 
 ## Lesesaler og grupperom
 
-
-> * Matnat har ganske få grupperom og de er ofte opptatt.
-> * Du kan booke rom, eller se om et rom er ledig [her.](https://tp.uib.no/) 
-> * Om nettsiden ikke lar deg booke rom, kan man også skrive opp navnet ditt på lappen som henger på døra. 
-> * Finn grupperommet du har booket med [MazeMap](https://use.mazemap.com/).
-> * Mange grupperom har en stor skjerm, som man kan bruke om du vil følge med på en digital forelesning eller sammarbeide med medstudenter. 
-> * Inviter med deg medstudenter om du tenker å bruke grupperom, for det er ikke så mange av dem.
-> * Grupperommene låses på kvelden og i helgene. Pass på at du aldri går ut av rommet uten nøkkelkort. 
+> - Matnat har ganske få grupperom og de er ofte opptatt.
+> - Du kan booke rom, eller se om et rom er ledig [her.](https://tp.uib.no/)
+> - Om nettsiden ikke lar deg booke rom, kan man også skrive opp navnet ditt på lappen som henger på døra.
+> - Finn grupperommet du har booket med [MazeMap](https://use.mazemap.com/).
+> - Mange grupperom har en stor skjerm, som man kan bruke om du vil følge med på en digital forelesning eller sammarbeide med medstudenter.
+> - Inviter med deg medstudenter om du tenker å bruke grupperom, for det er ikke så mange av dem.
+> - Grupperommene låses på kvelden og i helgene. Pass på at du aldri går ut av rommet uten nøkkelkort.
 
 Matnat har dog et stort bibliotek og et fantastisk læringssenter, i tillegg til en større lesesal.
 
@@ -533,6 +543,7 @@ echo har også en samling fun facts på: [https://echo.uib.no/visste-du-at/](htt
 echo har flere Facebookgrupper og sider du kan være med i. Her kommer litt info om flere av dem.
 
 **Grupper underlagt echo**
+
 - [**echo – Fagutvalget for informatikk, UiB**](https://www.facebook.com/groups/informatikk/) er den offisielle Facebookgruppen til echo. Her publiseres alt fra nyheter som er aktuelle for studenter til fester og andre faglige arrangement.
 - [**echo Aktiv**](https://www.facebook.com/groups/1785913424994492/) Facebook-gruppe hvor man kan få med folk på aktiviteter som å gå på tur, spille fotball, paintball, konserter etc
 - [**echo Fjellturchallenge**](https://www.facebook.com/groups/747988622245069/) Konkurranse om å gå flest fjellturer på et semester
@@ -540,6 +551,7 @@ echo har flere Facebookgrupper og sider du kan være med i. Her kommer litt info
 - [**Næringslivskontakt for informatikkstudenter, Bergen**](https://www.facebook.com/informatikkjobb/) På denne Facebooksiden, publiserer echos bedriftskomité stillingsutlysninger som er relevante for IT-studenter. Dette er alt fra deltidsjobber i startups til internships og stillinger for nyutdannede.
 
 **Interessegrupper og andre organisasjoner**
+
 - [Helt sikker](https://www.facebook.com/groups/heltsikker/)
 - [Informatikkband](https://www.facebook.com/groups/722075571587466/)
 - [echo Squash](https://www.facebook.com/groups/282025509313458/)
@@ -558,4 +570,4 @@ Ikke alle bedriftspresentasjoner er åpne for alle årstrinn. Hvilke trinn den a
 
 Ved ii finnes det en faggruppe som heter **Helt Sikker**. Helt Sikker er en studentorganisasjon/linjeforening som har som målsetning å tilby studenter en arena for å lære informasjonssikkerhet, og samtidig bygge et miljø for sikkerhetsinteresserte studenter. Helt Sikker arrangerer workshops, CTF-er, foredrag mm. Om dette høres spennende ut, finner du mer informasjon på [heltsikker.no](https://www.heltsikker.no/) eller på deres [facebookside.](https://www.facebook.com/groups/heltsikker/)
 
-*Skrevet av Martin Tverråen, hentet fra [gummiand.no/](http://gummiand.no/), GitHub: [github.com/mtverraen/Informatikk-UiB-survival-guide](https://github.com/mtverraen/Informatikk-UiB-survival-guide).*
+_Skrevet av Martin Tverråen, hentet fra [gummiand.no/](http://gummiand.no/), GitHub: [github.com/mtverraen/Informatikk-UiB-survival-guide](https://github.com/mtverraen/Informatikk-UiB-survival-guide)._
