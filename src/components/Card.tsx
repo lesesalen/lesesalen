@@ -52,22 +52,22 @@ interface Props {
 type StyledProps = Omit<Props, "delay">;
 
 const StyledCard = styled.div<StyledProps>`
-    width: ${(props) => (props.big ? "90%" : "70%")};
-    border-radius: 8px;
-    padding: 15px;
-    opacity: 0;
-    transition: 250ms all ease-in-out;
-    margin: 0 auto;
-    margin-bottom: 12px;
-		box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
-    background-color: #F1F1F1;
-    ${(props) => props.animated && animatedCss}
-		${(props) => props.primary && primaryCss}
-		${(props) => props.important && important}
-		${(props) => props.news && newsCss}
-		${(props) => props.other && otherCss}
-    ${(props) => props.notes && notesCss}
-    ${(props) => props.tags && tagCss}
+  width: ${(props) => (props.big ? "90%" : "70%")};
+  border-radius: 8px;
+  padding: 15px;
+  opacity: 0;
+  transition: 250ms all ease-in-out;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
+  background-color: #f1f1f1;
+  ${(props) => props.animated && animatedCss}
+  ${(props) => props.primary && primaryCss}
+	${(props) => props.important && important}
+	${(props) => props.news && newsCss}
+	${(props) => props.other && otherCss}
+  ${(props) => props.notes && notesCss}
+  ${(props) => props.tags && tagCss}
 `;
 
 const Card: React.FC<Props> = ({
