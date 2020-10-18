@@ -5,6 +5,7 @@ import { rhythm } from "../utils/typography";
 import Nav from "./Nav";
 import StyledHeader from "./Header";
 import axios from "axios";
+import { Theme } from "../theme/theme";
 
 interface Props {
   location: Record<string, string>;
@@ -108,31 +109,33 @@ const Layout: React.FC<Props> = ({ location, children }) => {
   };
 
   return (
-    // TODO: Remove these once we remove the spooky ghost
-    // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/interactive-supports-focus
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-      }}
-      role="button"
-      onClick={clickEvent}
-    >
-      <header>{header}</header>
-      <Nav />
-      <main>
-        {spook && renderSpook(spook)}
-        {children}
-      </main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a> |{" "}
-        <Link to={"/about/"}>About</Link>
-      </footer>
-    </div>
+    <Theme>
+      {/* TODO: Remove these once we remove the spooky ghost */}
+      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/interactive-supports-focus */}
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        }}
+        role="button"
+        onClick={clickEvent}
+      >
+        <header>{header}</header>
+        <Nav />
+        <main>
+          {spook && renderSpook(spook)}
+          {children}
+        </main>
+        <footer>
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a> |{" "}
+          <Link to={"/about/"}>About</Link>
+        </footer>
+      </div>
+    </Theme>
   );
 };
 

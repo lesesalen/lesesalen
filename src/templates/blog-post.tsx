@@ -38,11 +38,11 @@ const InnerScroll = styled.div`
   overflow-y: scroll;
   &::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    background-color: #f5f5f5;
+    background-color: ${(props) => props.theme.colors.backgroundColor};
   }
   &::-webkit-scrollbar {
     width: 6px;
-    background-color: #f5f5f5;
+    background-color: ${(props) => props.theme.colors.backgroundColor};
   }
   &::-webkit-scrollbar-thumb {
     background-color: gray;

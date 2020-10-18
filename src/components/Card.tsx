@@ -7,32 +7,32 @@ const animatedCss = css`
 `;
 
 const primaryCss = css`
-  background-color: #008bf8;
+  background-color: ${(props) => props.theme.colors.blue};
   color: #fff;
 `;
 
 const important = css`
-  background-color: red;
+  background-color: ${(props) => props.theme.colors.red};
   color: #fff;
 `;
 
 const newsCss = css`
-  background-color: #e50003;
+  background-color: ${(props) => props.theme.colors.darkRed};
   color: #fff;
 `;
 
 const otherCss = css`
-  background-color: #00e557;
+  background-color: ${(props) => props.theme.colors.green};
   color: #fff;
 `;
 
 const notesCss = css`
-  background-color: #161616;
+  background-color: ${(props) => props.theme.colors.gray};
   color: #fff;
 `;
 
 const tagCss = css`
-  background-color: #00e557;
+  background-color: ${(props) => props.theme.colors.green};
   color: #fff;
 `;
 
@@ -60,7 +60,7 @@ const StyledCard = styled.div<StyledProps>`
   margin: 0 auto;
   margin-bottom: 12px;
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
-  background-color: #f1f1f1;
+  background-color: ${(props) => props.theme.colors.lightGray};
   ${(props) => props.animated && animatedCss}
   ${(props) => props.primary && primaryCss}
 	${(props) => props.important && important}
