@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "lesesalen.com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "The open source information library",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lesesalen Contributors <https://github.com/lesesalen/lesesalen>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/lesesalen/lesesalen/issues"
   },
   "dependencies": {
     "axios": "^0.20.0",
