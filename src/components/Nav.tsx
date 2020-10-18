@@ -21,7 +21,7 @@ const StyledH1 = styled.h1`
   font-size: 14pt;
 `;
 
-export default function Nav() {
+export default function Nav(): JSX.Element {
   return (
     <StyledNav>
       <Link to="/">

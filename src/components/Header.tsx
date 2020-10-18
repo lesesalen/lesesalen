@@ -16,7 +16,7 @@ const getWeekNumber = () => {
 };
 
 const Clock: React.FC = () => {
-  let date = new Date();
+  const date = new Date();
 
   return <time dateTime={date.toISOString()}>{date.toLocaleDateString()}</time>;
 };
@@ -34,7 +34,7 @@ const StyledDiv = styled.div`
   margin: 0 auto;
 `;
 
-export default function StyledHeader() {
+export default function StyledHeader(): JSX.Element {
   return (
     <StyledDiv>
       <h1
@@ -51,7 +51,7 @@ export default function StyledHeader() {
             textDecoration: `none`,
           }}
           to={`/`}
-        ></Link>
+        />
       </h1>
       <Logo />
       <>

@@ -9,3 +9,13 @@ export interface Node {
     important: boolean;
   };
 }
+
+export interface AllMdxQuery {
+  allMdx: {
+    edges: [
+      {
+        node: Node;
+      }
+    ];
+  };
+}

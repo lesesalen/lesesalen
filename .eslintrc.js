@@ -32,12 +32,13 @@ module.exports = {
   rules: {
     // Not needed, see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/typedef.md#when-not-to-use-it
     "@typescript-eslint/typedef": "off",
-    "import/no-default-export": "error",
     "import/no-unresolved": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": "off",
     "react/prop-types": "off",
+    // Might want to reconsider this, see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md
+    "import/no-default-export": "off",
   },
   settings: {
     node: {
