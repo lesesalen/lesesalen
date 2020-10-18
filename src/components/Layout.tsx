@@ -89,6 +89,7 @@ const Layout: React.FC<Props> = ({ location, children }) => {
   const clickEvent = async (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>
   ) => {
+    if (!process.env.GATSBY_GIPHY_KEY) return;
     if (!Math.floor(Math.random() * 5)) {
       event.persist();
       const gif = await axios.get<GiphyResponse>(
