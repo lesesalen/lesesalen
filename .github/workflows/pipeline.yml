@@ -1,0 +1,33 @@
+name: pipeline
+on: [ push, pull_request ]
+
+jobs:
+  pipeline:
+    env:
+      CI: true
+    name: pipeline
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 14.x ]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install and build
+        run: yarn install --frozen-lockfile
+
+      - name: Lint
+        run: |
+          yarn lint:code
+          yarn lint:formatting
+
+      - name: Build
+        run: yarn build
+        env:
+          GIPHY_KEY: ${{ secrets.GIPHY_KEY }}
