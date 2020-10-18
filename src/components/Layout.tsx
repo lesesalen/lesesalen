@@ -23,9 +23,9 @@ interface GiphyResponse {
 }
 
 // Spooky global! :o
-var spookTimer: number;
+let spookTimer: number;
 
-const Layout: React.FC<Props> = ({ location, title, children }) => {
+const Layout: React.FC<Props> = ({ location, children }) => {
   const rootPath = withPrefix("/");
   const notesPath = withPrefix("/notes/");
   const infoPath = withPrefix("/info/");
@@ -60,7 +60,7 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
     );
   }
 
-  let [spook, setSpooks] = useState<SpookSetting | null>(null);
+  const [spook, setSpooks] = useState<SpookSetting | null>(null);
 
   const renderSpook = (setting: SpookSetting) => {
     return (
@@ -72,7 +72,7 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
           zIndex: 10,
         }}
       >
-        <img src={setting.url} />
+        <img src={setting.url} alt="A spooky ghost" />
         <div
           style={{
             position: "absolute",
@@ -107,6 +107,8 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
   };
 
   return (
+    // TODO: Remove these once we remove the spooky ghost
+    // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/interactive-supports-focus
     <div
       style={{
         marginLeft: `auto`,
@@ -114,6 +116,7 @@ const Layout: React.FC<Props> = ({ location, title, children }) => {
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
+      role="button"
       onClick={clickEvent}
     >
       <header>{header}</header>

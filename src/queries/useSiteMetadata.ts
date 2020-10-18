@@ -11,7 +11,9 @@ interface SiteMetadata {
 }
 
 export const useSiteMetadata = (): SiteMetadata => {
-  const { site } = useStaticQuery(graphql`
+  const { site } = useStaticQuery<{
+    site: { siteMetadata: SiteMetadata };
+  }>(graphql`
     query SiteMetadata {
       site {
         siteMetadata {

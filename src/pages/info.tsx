@@ -8,7 +8,7 @@ import Tags from "../components/Tags";
 import Card from "../components/Card";
 import styled from "styled-components";
 import { useSiteMetadata } from "../queries/useSiteMetadata";
-import { Node } from "../utils/types";
+import { AllMdxQuery, Node } from "../utils/types";
 
 const StyledLink = styled(Link)`
   box-shadow: none;
@@ -24,7 +24,7 @@ interface Props {
 
 const InfoIndex: React.FC<Props> = ({ location }) => {
   const siteTitle = useSiteMetadata().title;
-  const query = useStaticQuery(
+  const query = useStaticQuery<AllMdxQuery>(
     graphql`
       query {
         allMdx(
@@ -59,7 +59,7 @@ const InfoIndex: React.FC<Props> = ({ location }) => {
         const title = node.frontmatter.title || node.fields.slug;
         const tags = node.frontmatter.tags;
         return (
-          <Card big>
+          <Card big key={title}>
             <article key={node.fields.slug}>
               <small>{node.frontmatter.date}</small>
               {tags && tags.length > 0 ? ` - ` : ``}

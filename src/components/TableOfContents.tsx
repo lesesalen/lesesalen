@@ -51,12 +51,16 @@ function useActiveId(itemIds: string[]) {
     );
 
     itemIds.forEach((id) => {
-      observer.observe(document.getElementById(id)!!);
+      const element = document.getElementById(id);
+      if (element === null) return;
+      observer.observe(element);
     });
 
     return () => {
       itemIds.forEach((id) => {
-        observer.unobserve(document.getElementById(id)!!);
+        const element = document.getElementById(id);
+        if (element === null) return;
+        observer.unobserve(element);
       });
     };
   }, [itemIds]);
@@ -96,7 +100,7 @@ interface Props {
   items: Item[];
 }
 
-function TableOfContents({ items }: Props) {
+function TableOfContents({ items }: Props): JSX.Element {
   const idList = getIds(items);
   const activeId = useActiveId(idList);
   return (
