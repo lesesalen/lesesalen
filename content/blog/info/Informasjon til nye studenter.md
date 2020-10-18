@@ -46,10 +46,10 @@ Som ny student er det mange ting du må få oversikt over, og overgangen fra vid
 
 <iframe src="https://discordapp.com/widget?id=687650156262195217&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-- Facebook: 
+- Facebook:
     - [echo sin Facebook gruppe: ](https://www.facebook.com/groups/informatikk/)  
     Her kommer kunngjøringer, bedpresser etc.  
-    - [echo Aktiv/Sosial: ](https://www.facebook.com/groups/1785913424994492/)  
+    - [EFO - echo Fritidsordning: ](https://www.facebook.com/groups/1785913424994492/)  
     Her kan folk poste om de vil finne på noe sosialt, som fjelltur, brettspill, spille switch på lesesalen etc.
 
 ---
@@ -59,8 +59,8 @@ Her følger noen tips til studenthverdagen ved ii.
 
 Elever og studenter i høyere og annen utdanning som ikke kan jobbe ved siden av utdanningen på grunn av nedsatt funksjonsevne (ADHD, dysleksi, annet), kan få et ekstrastipend. Ekstrastipendet på 3 763 kroner per måned kommer i tillegg til vanlig studiestøtte fra Lånekassen. Dersom du er deltidsstudent, blir ekstrastipendet redusert tilsvarende deltidsprosenten din. Du finner mer informasjon på [lånekassens sider](https://www.lanekassen.no/nb-NO/Stipend-og-lan/Hoyere-utdanning/Hvor-mye-kan-du-fa/Nye-stotteordninger-for-elever-og-studenter-med-nedsatt-funksjonsevne/Ekstra-stipend-/)
 
-### Fagforeninger 
-Fagforeninger som [Nito](https://www.nito.no/) og [Tekna](https://www.tekna.no/) har studentmedlemskap som gir deg de samme fordelene som ordentlige medlemskap. 
+### Fagforeninger
+Fagforeninger som [Nito](https://www.nito.no/) og [Tekna](https://www.tekna.no/) har studentmedlemskap som gir deg de samme fordelene som ordentlige medlemskap.
 Hos Nito betaler man en engangsavgift på 350kr, og medlemskap var ut studietiden.
 Hos Tekna betaler man 150kr i semsteret for medlemskap.
 Tilbudet er omtrent likt hos begge to.  
@@ -117,7 +117,7 @@ Dette nettet logger du på med studentkontoen din; brukernavn@uib.no og passord.
 >brukernavn@student.uib.no fungerer ikke etter 2017-12-16  
 > Eduroam har en [config tool](https://cat.eduroam.org/?idp=535) om du ikke klarer å koble deg på  
 > Om du har problemer med Eduroam på f.eks Linux, kan du sjekke [denne siden](https://it.uib.no/en/Eduroam)  
-> Eduroam finnes også på alle de største flyplassene i Norge. 
+> Eduroam finnes også på alle de største flyplassene i Norge.
 
 Om du kobler deg til Eduroam på telefonen, kan den koble seg til når du er på bussen/bybanen, som fort kan bli litt irriterende.
 
@@ -130,10 +130,10 @@ Som informatikkstudent vil du bruke mye tid foran en datamaskin eller bøker, og
 ### Trening
 Her er en liste over alle treningssentere i Bergen. Om du liker å trene med venner, så havner man som regel på Sammen trening. Om du trener alene, så er det mange andre å velge mellom  
 #### **[Sammen trening](https://www.sammen.no/no/bergen/trening)**
-Sammen er billigst, og koster kun 1200kr per semester. Det er da 200kr/mnd.  
+Sammen er billigst, og koster kun 1200kr per semester. Det er da 200kr/mnd. Etter 15. oktober er det halv pris ut semesteret. 
 Sammen har [dårlige åpningstider](https://www.sammen.no/no/bergen/trening/apningstider), spesielt i helgene og rundt eksamensperiodene.
 Det er ofte stappet i rushtider (12.00 og 16.00), og i koronatidene kan det bli kø for å komme inn.  
-  
+
 <br/>  
 
 > Alle andre er ordinære treningssentre, med lav studentandel. Unngå å trene mellom `07.00-09.00` og `15.00-18.00` om du ikke liker å stå i kø.  
@@ -148,8 +148,8 @@ De tilbyr masse gruppetrening, som koster ekstra, og tredemøllene blir plutseli
 
 #### **[iTrain](https://www.itrain.no/bli-medlem-naa)**
 For deg som liker å trene klokka 03.22 på en onsdag.  
-iTrain har 3 knøttsmå sentere i Bergen, men tilbyr døgnåpen tilgang. Ja, det er folk som kommer og trener der midt på natta. 
-Studentpris er 1674kr/semester (279kr/mnd). 
+iTrain har 3 knøttsmå sentere i Bergen, men tilbyr døgnåpen tilgang. Ja, det er folk som kommer og trener der midt på natta.
+Studentpris er 1674kr/semester (279kr/mnd).
 
 #### **[Evo fitness](https://evofitness.no/)**
 Evo er et ganske nytt senter i Bergen. De har ubemannet åpningstid fra 05.00-24.00.  
@@ -160,13 +160,13 @@ De har 10 sentere i Bergen. Jeg tror at de tidligere var døgnåpne, men er nå 
 Studenter kan trene på alle sentere i Bergen for 275kr/mnd uten binding.
 
 #### **[Bergen Tennis Arena](https://bergentennisarena.no/?page_id=2612)**
-Paradis tennis klubb har et digert senter på Slettebakken, men et treningssenter. 
+Paradis tennis klubb har et digert senter på Slettebakken, men et treningssenter.
 Innmelding i PKT koster 450kr(nif).  
 Uten binding: 359kr/mnd
 Med binding: 312kr/mnd inkl. PKT medlemskap
 
 
-#### Annet: 
+#### Annet:
 Det finnes en rekke andre tilbud i Bergen, bla.  
 * [BSI: Bergen Studentidrettslag](https://bsi.no/#section1)
 * [Squash](https://www.facebook.com/groups/282025509313458/)
@@ -175,7 +175,7 @@ Det finnes en rekke andre tilbud i Bergen, bla.
 * [Sammen trening har mange forskjellige tilbud](https://www.sammen.no/no/bergen/trening)
 * [Fjelltur](https://ut.no/omrade/1240/byfjellene-i-bergen)
 * [Svømming](https://adoarena.no/no/)
-* [Tennis](https://bergentennisarena.no/) 
+* [Tennis](https://bergentennisarena.no/)
 
 
 ### Sammen
@@ -236,7 +236,7 @@ Sammen har også en rekke gode tilbud for din fysiske og psykiske velvære, tilb
 - **12. august:** Semesterstart
 - **1. september:** Frist for å godkjenne utdanningsplan for høstsemesteret **og** betale semesteravgift. Påmelding til fag stenger.
 - **1. desember:** Hvert enkelt emnes timeplan for vårsemesteret blir publisert. I tillegg blir litteraturlister (pensum) og eksamensplan publisert.
-- **9. desember:** Studentweb åpner for neste semesters registrering. 
+- **9. desember:** Studentweb åpner for neste semesters registrering.
 - **1. februar:** Påmelding til fag stenger.
 
 Et typisk semester foregår slik:
@@ -327,7 +327,7 @@ Når man programmerer har man gjerne to typer verktøy. Enten en IDE eller en ed
 
 **IntelliJ**  
 
-De (sannsynligvis) beste IDEene utvikles av JetBrains. [Jetbrains](https://www.jetbrains.com/student/) har IDE-er for flere språk. Mest aktuelt for nye studenter er gjerne IntelliJ for Java, og PyCharm for Python. Som student får man tilgang til alle verktøyene deres gratis så lenge man er student, registrer deg på lenken og bruk UiB-eposten din. 
+De (sannsynligvis) beste IDEene utvikles av JetBrains. [Jetbrains](https://www.jetbrains.com/student/) har IDE-er for flere språk. Mest aktuelt for nye studenter er gjerne IntelliJ for Java, og PyCharm for Python. Som student får man tilgang til alle verktøyene deres gratis så lenge man er student, registrer deg på lenken og bruk UiB-eposten din.
 
 > Jetbrains lager mange forskjellige IDEer, men forskjellige navn. Det er lite forskjell på IntelliJ og PyCharm, da de i bunn er samme program. Det finnes også en open source versjon kalt Community Edition. IDEer som Android Studio er basert på dette.  
 
@@ -347,7 +347,7 @@ Privat selskap som drifter git servere for deg. Ble kjøpt opp av Microsoft.  <b
 Åpen versjon av Github, lar deg _hoste din egen versjon av Github_. UiB bruker dette i fag som INF101.<br/>
 **BitBucket**
 Alternativ til Github, hovedsakelig rettet mot bedrifter. Har bra integrasjon med Jira, et populært prosjektledelsesverktøy.  
-  
+
 
 På GitHub skiller man gjerne mellom offentlige og private repositories. Et offentlig repository kan hvem som helst finne. Det er en fantastisk måte å vise arbeidet sitt frem for andre studenter og potensielle arbeidsgivere. For mindre prosjekter og innleveringer, er private repositories gode å ha. Disse er ikke synlige for allmennheten, og kun tilgjengelige for deg. Uansett om man velger private eller offentlige repositories, kan man legge til og fjerne samarbeidspartnere etter ønske. Private repositories er gratis på GitHub, GitLab og Bitbucket men med noen restriksjoner dersom man ikke har et Pro-abonnement.
 
@@ -365,7 +365,7 @@ Gummiender er en populær meme blant IT-folk, og refererer til "rubber duck debu
 
 ### Matematikken
 
-Matematikken er for mange tøff det første året. 
+Matematikken er for mange tøff det første året.
 
 **I MAT111** har man 8 obligatoriske innleveringer i løpet av semesteret, hvor 6 av dem må bestås. Det arrangeres gruppetimer hver uke hvor man kan jobbe med oppgaver og få hjelp av en gruppeleder som selv er student og har tatt faget. Om du er typen som ikke trives særlig godt i forelesninger anbefaler jeg virkelig å gå i gruppetimene! I dem kan du i stor grad jobbe i ditt eget tempo og få veiledningen tilpasset det du faktisk sliter med på det tidspunktet.
 
@@ -385,7 +385,7 @@ Hver torsdag fra 13-15 steker de vafler, så de kan gjerne kjennes igjen på luk
 
 ### Timeplan
 Å få oversikt over alle forelesninger og gruppetimer kan bli vanskelig, og i kalenderen til Mitt UiB blir det fort rotete.  
-Går du inn [på denne siden](https://tp.uio.no/uib/timeplan/emner.php), kan du få opp timeplanen til induviduelle fag. 
+Går du inn [på denne siden](https://tp.uio.no/uib/timeplan/emner.php), kan du få opp timeplanen til induviduelle fag.
 
 ### Forelesninger
 
@@ -431,12 +431,12 @@ MAT111 har tidlig eksamen for studenter med [**gyldig fravær**](https://www.uib
 
 
 > * Matnat har ganske få grupperom og de er ofte opptatt.
-> * Du kan booke rom, eller se om et rom er ledig [her.](https://tp.uib.no/) 
-> * Om nettsiden ikke lar deg booke rom, kan man også skrive opp navnet ditt på lappen som henger på døra. 
+> * Du kan booke rom, eller se om et rom er ledig [her.](https://tp.uib.no/)
+> * Om nettsiden ikke lar deg booke rom, kan man også skrive opp navnet ditt på lappen som henger på døra.
 > * Finn grupperommet du har booket med [MazeMap](https://use.mazemap.com/).
-> * Mange grupperom har en stor skjerm, som man kan bruke om du vil følge med på en digital forelesning eller sammarbeide med medstudenter. 
+> * Mange grupperom har en stor skjerm, som man kan bruke om du vil følge med på en digital forelesning eller sammarbeide med medstudenter.
 > * Inviter med deg medstudenter om du tenker å bruke grupperom, for det er ikke så mange av dem.
-> * Grupperommene låses på kvelden og i helgene. Pass på at du aldri går ut av rommet uten nøkkelkort. 
+> * Grupperommene låses på kvelden og i helgene. Pass på at du aldri går ut av rommet uten nøkkelkort.
 
 Matnat har dog et stort bibliotek og et fantastisk læringssenter, i tillegg til en større lesesal.
 
