@@ -49,8 +49,6 @@ const Layout: React.FC<Props> = ({ location, children }) => {
 
   return (
     <Theme>
-      {/* TODO: Remove these once we remove the spooky ghost */}
-      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/interactive-supports-focus */}
       <div
         style={{
           marginLeft: `auto`,
