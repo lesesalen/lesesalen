@@ -11,6 +11,7 @@ import Seo from "../components/Seo";
 import { rhythm, scale } from "../utils/typography";
 import { Node } from "../utils/types";
 import { useSiteMetadata } from "../queries/useSiteMetadata";
+import "katex/dist/katex.min.css";
 
 const Toc = styled.ul`
   background-color: white;
