@@ -65,6 +65,7 @@ interface Props {
         title: string;
         date: string;
         description: string;
+        author: string;
       };
     };
   };
@@ -105,15 +106,29 @@ const BlogPostTemplate: React.FC<Props> = ({ data, pageContext, location }) => {
           >
             {post.frontmatter.title}
           </h1>
-          <p
+          <div
             style={{
               ...scale(-1 / 5),
               display: `block`,
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}
-          </p>
+            <p
+              style={{
+                float: "left",
+              }}
+            >
+              {post.frontmatter.date}
+            </p>
+            <p
+              style={{
+                float: "right",
+              }}
+            >
+              {post.frontmatter.author}
+            </p>
+          </div>
+          <div style={{ clear: "both" }}></div>
         </header>
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
@@ -169,6 +184,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        author
       }
     }
   }
