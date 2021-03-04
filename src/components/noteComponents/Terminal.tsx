@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const TerminalWindow = styled.div`
@@ -143,7 +143,7 @@ export default function Terminal({
         <StyledBottomText>
           <p style={{ marginBottom: "0px", color: "red" }}>lesesalen</p>
           <p style={{ marginBottom: "0px", color: "white" }}>
-            @{navigator.userAgent.split("/")[0]}{" "}
+            @{navigator ? navigator.userAgent.split("/")[0] : ""}{" "}
           </p>
           <p>&nbsp;~</p>
           {window.location.href
