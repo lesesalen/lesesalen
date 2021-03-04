@@ -143,10 +143,7 @@ export default function Terminal({
         <StyledBottomText>
           <p style={{ marginBottom: "0px", color: "red" }}>lesesalen</p>
           <p style={{ marginBottom: "0px", color: "white" }}>
-            @
-            {typeof navigator !== "undefined"
-              ? navigator.userAgent.split("/")[0]
-              : ""}{" "}
+            @{typeof navigator !== "undefined" ? navigator.platform : ""}{" "}
           </p>
           <p>&nbsp;~</p>
           {typeof navigator !== "undefined"
