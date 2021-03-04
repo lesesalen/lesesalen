@@ -143,7 +143,10 @@ export default function Terminal({
         <StyledBottomText>
           <p style={{ marginBottom: "0px", color: "red" }}>lesesalen</p>
           <p style={{ marginBottom: "0px", color: "white" }}>
-            @{navigator ? navigator.userAgent.split("/")[0] : ""}{" "}
+            @
+            {typeof navigator !== "undefined"
+              ? navigator.userAgent.split("/")[0]
+              : ""}{" "}
           </p>
           <p>&nbsp;~</p>
           {window.location.href
