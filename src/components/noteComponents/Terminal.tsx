@@ -149,10 +149,12 @@ export default function Terminal({
               : ""}{" "}
           </p>
           <p>&nbsp;~</p>
-          {window.location.href
-            .replace("https://www.lesesalen.com", "")
-            .replace("http://localhost:8000", "")
-            .trim()}
+          {typeof navigator !== "undefined"
+            ? window.location.href
+                .replace("https://www.lesesalen.com", "")
+                .replace("http://localhost:8000", "")
+                .trim()
+            : ""}
           <p style={{ color: "white" }}>(master)</p>
           &nbsp;
           {">"}
