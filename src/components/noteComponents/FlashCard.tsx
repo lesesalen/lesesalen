@@ -32,21 +32,16 @@ const Question = styled.div`
   }
   -ms-overflow-style: none;
   scrollbar-width: none;
-  white-space: nowrap;
   color: white;
   display: flex;
   flex-direction: row;
   width: 100%;
 `;
 
-const Answer = styled.p<FlashCardProps>`
-  ${({ nowrap }) =>
-    nowrap &&
-    css`
-      white-space: nowrap;
-    `};
+const Answer = styled.div<FlashCardProps>`
   margin: 12px;
   padding: 12px;
+  overflow-wrap: break-word;
   color: white;
   background: darkred;
   border-radius: 5px;
@@ -61,13 +56,11 @@ const StyledButton = styled.button`
 
 type FlashCardProps = {
   question?: string;
-  nowrap?: boolean;
   children: string;
 };
 
 export default function FlashCard({
   question,
-  nowrap,
   children,
 }: FlashCardProps): JSX.Element {
   const [showAnswer, setShowAnswer] = React.useState(false);
@@ -75,14 +68,20 @@ export default function FlashCard({
   return (
     <FlashCardWindow>
       <Question>
-        <h4 style={{ lineHeight: "185%", margin: "0", color: "white" }}>
+        <h4
+          style={{
+            lineHeight: "185%",
+            margin: "0",
+            color: "white",
+          }}
+        >
           {question}
         </h4>
         <StyledButton onClick={onClick}>
           {showAnswer ? <Hide /> : <Show />}
         </StyledButton>
       </Question>
-      {showAnswer ? <Answer nowrap={nowrap}>{children}</Answer> : null}
+      {showAnswer ? <Answer>{children}</Answer> : null}
     </FlashCardWindow>
   );
 }

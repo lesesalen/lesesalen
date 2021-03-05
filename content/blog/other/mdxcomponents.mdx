@@ -74,6 +74,12 @@ this python script is so cool whoo
 
 ## FlashCards
 
+This component works as a quiz/flashcard. You can add a question and an answer, and the user can click the button to show the answer.
+The question will not break on other characters than whitespace, this is due to some edge cases where code might be in the box, in that case you don't necessarily want to break the line.
+The drawback here is that you have to scroll to press the button to show answer. This is probably an easy fix if you want to submit a PR on it.
+
+The answer will always force a break to fit within the div. This is simply because answers should be plain text and not code imo. This is also subject to change.
+
 <FlashCard
   question={"Speil, speil på veggen der, hvem er vakrest i landet her?"}
 >
@@ -81,27 +87,53 @@ this python script is so cool whoo
 </FlashCard>
 
 <FlashCard
-  question={"Speil, speil på veggen der, hvem er vakrest i landet her?"}
+  question={
+    "Superlangtekstsuperlangtekstsuperlangtekst superlangtekst superlangtekstsuperlangtekst superlangtekstsuperlangtekstsuperlangtekstsuperlangtekst superlangtekstsuperlangtekstsuperlangtekstsuperlangtekstsuperlangtekst?"
+  }
 >
-  Ikkje du i alle fall..
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
 </FlashCard>
+
+<FlashCard
+  nowrap
+  question={
+    "Superlangtekstsuperlangtekstsuperlangtekst superlangtekst superlangtekstsuperlangtekst superlangtekstsuperlangtekstsuperlangtekstsuperlangtekst superlangtekstsuperlangtekstsuperlangtekst superlangtekstsuperlangtekst?"
+  }
+>
+  SuperlangtekstsuperlangtekstsuperlangtekstSuperlangtekstsuperlangtekstsuperlangtekstSuperlangtekstsuperlangtekstsuperlangtekstSuperlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+  Superlangtekstsuperlangtekstsuperlangtekst
+</FlashCard>
+
+### How to use it
+
+```js
+import FlashCard from "../../../src/components/noteComponents/FlashCard.tsx";
+
 <FlashCard
   question={"Speil, speil på veggen der, hvem er vakrest i landet her?"}
 >
   Ikkje du i alle fall..
-</FlashCard>
-<FlashCard
-  question={"Speil, speil på veggen der, hvem er vakrest i landet her?"}
->
-  Ikkje du i alle fall..
-</FlashCard>
-<FlashCard
-  question={"Speil, speil på veggen der, hvem er vakrest i landet her?"}
->
-  Ikkje du i alle fall..
-</FlashCard>
-<FlashCard
-  question={"Speil, speil på veggen der, hvem er vakrest i landet her?"}
->
-  Ikkje du i alle fall..
-</FlashCard>
+</FlashCard;
+```
+
+### Props
+
+| Prop         | Description                        | type   |
+| ------------ | ---------------------------------- | ------ |
+| **question** | Question / Title of the flashcard. | String |
