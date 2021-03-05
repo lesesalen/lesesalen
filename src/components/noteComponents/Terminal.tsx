@@ -1,7 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const TerminalWindow = styled.div`
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
   margin-top: 12px;
   margin-bottom: 12px;
   width: 100%;
@@ -10,6 +17,17 @@ const TerminalWindow = styled.div`
 `;
 
 const TerminalHeader = styled.div`
+  position: sticky;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  white-space: nowrap;
   width: 100%;
   height: 28px;
   background: rgb(6, 0, 99);
@@ -22,13 +40,25 @@ const TerminalHeader = styled.div`
 `;
 
 const TerminalTitleText = styled.p`
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  white-space: nowrap;
   color: white;
   padding-left: 12px;
 `;
 
 const TerminalHeaderMenu = styled.div``;
 
-const TerminalText = styled.p`
+const TerminalText = styled.p<TerminalProps>`
+  ${({ nowrap }: any) =>
+    nowrap &&
+    css`
+      white-space: nowrap;
+    `};
   margin: 12px;
   margin-bottom: 0px;
   font-size: 14px;
@@ -125,20 +155,22 @@ const StyledBottomText = styled.p`
 type TerminalProps = {
   title?: string;
   runline?: string;
-  children: string;
+  nowrap?: boolean;
+  children: any;
 };
 
 export default function Terminal({
   title,
-  runline,
+  nowrap,
   children,
+  runline,
 }: TerminalProps): JSX.Element {
   return (
     <TerminalWindow>
       <TerminalHeader>
         <TerminalTitleText>{title ? title : "Terminal"}</TerminalTitleText>
       </TerminalHeader>
-      <TerminalText>
+      <TerminalText nowrap={nowrap}>
         {children}
         <StyledBottomText>
           <p style={{ marginBottom: "0px", color: "red" }}>lesesalen</p>
