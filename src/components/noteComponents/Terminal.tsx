@@ -21,6 +21,7 @@ const TerminalHeader = styled.div`
   width: 100%;
   left: 0px;
   top: 0px;
+  overflow-y: hidden;
   overflow-x: scroll;
   &::-webkit-scrollbar {
     display: none;
@@ -40,6 +41,7 @@ const TerminalHeader = styled.div`
 `;
 
 const TerminalTitleText = styled.p`
+  overflow-y: hidden;
   overflow-x: scroll;
   &::-webkit-scrollbar {
     display: none;
