@@ -87,20 +87,20 @@ const Layout: React.FC<Props> = ({ location, children }) => {
     );
   };
 
-  const clickEvent = async (
-    event: React.MouseEvent<HTMLDivElement, MouseEvent>
-  ) => {
-    if (!process.env.GATSBY_GIPHY_KEY) return;
+  const spookEvent = async (x: number, y: number) => {
+    if (!process.env.GATSBY_GIPHY_KEY) {
+      console.log("Missing GATSBY_GIPHY_KEY environment variable");
+      return;
+    }
     if (!Math.floor(Math.random() * 5)) {
-      event.persist();
       const gif = await axios.get<GiphyResponse>(
         `https://api.giphy.com/v1/gifs/random?tag=skeleton&api_key=${String(
           process.env.GATSBY_GIPHY_KEY
         )}`
       );
       setSpooks({
-        x: event.clientX,
-        y: event.clientY,
+        x: x,
+        y: y,
         url: gif.data.data.images.original.url,
       });
       clearTimeout(spookTimer);
@@ -118,7 +118,16 @@ const Layout: React.FC<Props> = ({ location, children }) => {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
         role="button"
-        onClick={clickEvent}
+        tabIndex={0}
+        onMouseDown={async (e) => {
+          e.persist();
+          await spookEvent(e.clientX, e.clientY);
+        }}
+        onKeyDown={async (e) => {
+          e.persist();
+          const rects = document.activeElement?.getBoundingClientRect();
+          await spookEvent(rects?.top ?? 0, rects?.left ?? 0);
+        }}
       >
         <header>{header}</header>
         <Nav />
