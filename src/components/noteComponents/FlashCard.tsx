@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import Show from "../../../content/assets/icons/show.svg";
 import Hide from "../../../content/assets/icons/hide.svg";
 
