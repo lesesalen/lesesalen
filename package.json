@@ -10,6 +10,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.18",
     "@mdx-js/react": "^1.6.18",
+    "axios": "^0.20.0",
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.80",
     "gatsby-image": "^2.4.21",
@@ -58,6 +59,7 @@
     "@types/typography": "^0.16.3",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "7",
     "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",

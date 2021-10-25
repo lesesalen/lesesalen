@@ -53,10 +53,8 @@ const TerminalTitleText = styled.p`
   padding-left: 12px;
 `;
 
-const TerminalHeaderMenu = styled.div``;
-
 const TerminalText = styled.p<TerminalProps>`
-  ${({ nowrap }: any) =>
+  ${({ nowrap }: TerminalProps) =>
     nowrap &&
     css`
       white-space: nowrap;
@@ -158,7 +156,7 @@ type TerminalProps = {
   title?: string;
   runline?: string;
   nowrap?: boolean;
-  children: any;
+  children: React.ReactNode;
 };
 
 export default function Terminal({
